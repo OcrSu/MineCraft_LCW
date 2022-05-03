@@ -1,0 +1,19 @@
+{
+	id: "79EA09DCD43E1B12"
+	order_index: 1
+	title: "通讯系统2"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "contact:white_mailbox" }
+		{ item: "contact:orange_mailbox" }
+		{ item: "contact:magenta_mailbox" }
+		{ item: "contact:light_blue_mailbox" }
+		{ item: "contact:yellow_mailbox" }
+		{ item: "contact:lime_mailbox" }
+		{ item: "contact:lime_mailbox" }
+		{ item: "contact:pink_mailbox" }
+		{ item: "contact:gray_mailbox" }
+		{ item: "contact:light_gray_mailbox" }
+	]
+}

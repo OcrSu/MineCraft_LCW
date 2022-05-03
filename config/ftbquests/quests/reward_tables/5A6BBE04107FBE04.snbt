@@ -1,0 +1,13 @@
+{
+	id: "5A6BBE04107FBE04"
+	order_index: 4
+	title: "猫咪"
+	loot_size: 1
+	rewards: [
+		{ item: "yuushya:442" }
+		{ item: "yuushya:443" }
+		{ item: "yuushya:445" }
+		{ item: "yuushya:447" }
+		{ item: "yuushya:448" }
+	]
+}

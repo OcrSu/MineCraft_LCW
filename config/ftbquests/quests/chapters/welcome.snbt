@@ -1,0 +1,5127 @@
+{
+	id: "65685EF11986CE8F"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	icon: "yuushya:the_encyclopedia"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome"
+			x: -8.5d
+			y: 21.5d
+			shape: "square"
+			description: [
+				"欢迎来到原野！"
+				"这里的世界异常危险！"
+			]
+			id: "05092F470B4A49F9"
+			tasks: [{
+				id: "6D0432D368322C01"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [
+				{
+					id: "1AEF6F9C969D9CA2"
+					type: "item"
+					item: "ftbquests:book"
+				}
+				{
+					id: "6D246FCF09282445"
+					type: "item"
+					item: "minecraft:oak_boat"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 20.0d
+			description: [
+				"Ctrl+L    ALT+L"
+				"使用Ctrl+L 按键打开成就追踪器"
+				"使用ALT+L关闭追踪器"
+			]
+			dependencies: ["05092F470B4A49F9"]
+			id: "31DE6E087A6B1080"
+			tasks: [{
+				id: "748B6FC1F363D054"
+				type: "checkmark"
+				title: "Achievement Tracker"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 21.5d
+			description: [
+				"R+C"
+				"按下R+C打开一键整理设置面板"
+			]
+			dependencies: ["05092F470B4A49F9"]
+			id: "5587B9A152A1CD21"
+			tasks: [{
+				id: "1B822865B0D42022"
+				type: "checkmark"
+				title: "Inventory Profiles"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 23.5d
+			description: [
+				"I believe you are not the first time to play minecraft."
+				"Let's get right to the fun part"
+				"相信你已经不是第一次游玩我的世界了，让我们直接开始有意思的部分吧！"
+			]
+			dependencies: ["05092F470B4A49F9"]
+			id: "36EC3897B44AB74F"
+			tasks: [{
+				id: "387DE817BD64B778"
+				type: "checkmark"
+				title: "Hello World!"
+			}]
+			rewards: [
+				{
+					id: "4B4FAEEC4877C790"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50C5972BFDD858DF"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26BF89FB6B748B89"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B1B03E50350DDC8"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47E4B564CE621A11"
+					type: "item"
+					item: "minecraft:torch"
+					count: 64
+				}
+				{
+					id: "5B2D4288D0F158D1"
+					type: "item"
+					item: "minecraft:bread"
+					count: 12
+				}
+			]
+		}
+		{
+			title: "Cooking food"
+			x: 3.5d
+			y: 33.0d
+			description: ["不会吧不会吧，不会这么早就要下厨房了吧"]
+			dependencies: ["6A84B059DAD8E82F"]
+			id: "68AB4637A7995E8C"
+			tasks: [
+				{
+					id: "2207B3BBE2FA7422"
+					type: "item"
+					item: "pizzacraft:oven"
+				}
+				{
+					id: "48EBA06282E58321"
+					type: "item"
+					item: "pizzacraft:oak_chopping_board"
+				}
+				{
+					id: "5315D7915C3E6257"
+					type: "item"
+					item: "pizzacraft:granite_basin"
+				}
+				{
+					id: "0A712462FF9695B5"
+					type: "item"
+					item: {
+						id: "pizzacraft:stone_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "51560F995A65D0FA"
+					type: "item"
+					item: {
+						id: "pizzacraft:stone_pizza_peel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2F4BF062669B0721"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 8
+			}]
+		}
+		{
+			title: "Decorate your home"
+			x: 9.5d
+			y: 19.0d
+			description: ["是时候做一些装修了"]
+			dependencies: ["6A27F41B6A49305B"]
+			id: "33A966373356C75B"
+			tasks: [
+				{
+					id: "662CF5500E69CF17"
+					type: "item"
+					item: "nefdecomod:steve_plushie"
+				}
+				{
+					id: "4EB9C5A874879BA9"
+					type: "item"
+					item: "nefdecomod:alex_plushie"
+				}
+			]
+			rewards: [{
+				id: "5E0F752B0076258A"
+				type: "random"
+				table_id: 8223677760680305777L
+			}]
+		}
+		{
+			title: "Exploring prehistoric creatures"
+			x: 32.0d
+			y: 19.0d
+			dependencies: ["6D269B00D76B2FE1"]
+			id: "11ACF7D0AC3D5660"
+			tasks: [{
+				id: "0266883BB86C5ED5"
+				type: "item"
+				item: {
+					id: "prehistoricfauna:geological_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 23.5d
+			description: [
+				"It's especially dark here at night, so take these torches"
+				"这里的夜晚很黑，收好这些火把"
+			]
+			dependencies: ["36EC3897B44AB74F"]
+			id: "51164C4A85541753"
+			tasks: [{
+				id: "139E1981B46A0E23"
+				type: "checkmark"
+				title: "I think you still need a little guidance"
+			}]
+			rewards: [
+				{
+					id: "2DCE34F8625A4129"
+					type: "item"
+					item: "minecraft:torch"
+					count: 12
+				}
+				{
+					id: "5A1D3343946AC6A7"
+					type: "item"
+					item: "minecraft:bread"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Let's make paper"
+			x: 5.0d
+			y: 34.5d
+			description: ["让我们做起老本行"]
+			dependencies: ["6A84B059DAD8E82F"]
+			id: "7C59CABA429B9DD8"
+			tasks: [
+				{
+					id: "6C56DBA1DE63B1C2"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 16L
+				}
+				{
+					id: "267BE33BAA04CCFA"
+					type: "item"
+					item: "minecraft:paper"
+				}
+			]
+		}
+		{
+			title: "Traveling"
+			x: 6.5d
+			y: 22.0d
+			description: ["旅途总有一天会迎来终点，但在MC中不是"]
+			dependencies: ["083A4BC8FF05D810"]
+			id: "30AD5C97DD10A584"
+			tasks: [{
+				id: "28A560B101CE87D4"
+				type: "item"
+				item: "smallships:oak_rowboat"
+			}]
+		}
+		{
+			title: "Better (maybe)"
+			x: 6.5d
+			y: 20.5d
+			description: ["扬帆起航！"]
+			dependencies: ["30AD5C97DD10A584"]
+			id: "1945DECF20CDE982"
+			tasks: [{
+				id: "1F3B4F95A8B4066F"
+				type: "item"
+				item: "smallships:oak_cog"
+			}]
+		}
+		{
+			title: "Better (maybe)"
+			x: 6.5d
+			y: 19.0d
+			description: ["请不要在前期花过多精力在这小船上"]
+			dependencies: ["1945DECF20CDE982"]
+			id: "302B20DC4EDE872E"
+			tasks: [{
+				id: "0A53F1489BB77E97"
+				type: "item"
+				item: "smallships:oak_galley"
+			}]
+		}
+		{
+			title: "Better (maybe)"
+			x: 5.0d
+			y: 19.0d
+			dependencies: ["302B20DC4EDE872E"]
+			id: "4BCD77AFA59FE152"
+			tasks: [{
+				id: "2956738C8A35BA16"
+				type: "item"
+				item: "smallships:oak_war_galley"
+			}]
+		}
+		{
+			title: "Better (maybe)"
+			x: 3.5d
+			y: 19.0d
+			dependencies: ["4BCD77AFA59FE152"]
+			id: "583EF3A9902744E4"
+			tasks: [{
+				id: "68028CD9A4AEEA96"
+				type: "item"
+				item: "smallships:oak_drakkar"
+			}]
+		}
+		{
+			title: "Better (maybe)"
+			x: 2.0d
+			y: 19.0d
+			dependencies: ["583EF3A9902744E4"]
+			id: "04FDDEE6C6D7D950"
+			tasks: [{
+				id: "3B02E0D731D31151"
+				type: "item"
+				item: "smallships:oak_brigg"
+			}]
+		}
+		{
+			title: "Better (maybe)"
+			x: 0.5d
+			y: 19.0d
+			dependencies: ["04FDDEE6C6D7D950"]
+			id: "7963C6C46051BBDA"
+			tasks: [{
+				id: "7463EF16D35FE172"
+				type: "item"
+				item: "smallships:oak_dhow"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 29.5d
+			description: ["伤害很高，但是耐久低的武器"]
+			dependencies: ["51AE3AC374254178"]
+			id: "315094831C5D5CAA"
+			tasks: [{
+				id: "43183064DC25D1B7"
+				type: "item"
+				item: {
+					id: "nefdecomod:macuahuitl"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.5d
+			y: 19.0d
+			shape: "pentagon"
+			description: ["你已经被世界认可！"]
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "7BB78F631487493B"
+			tasks: [{
+				id: "566C6C652E660FAF"
+				type: "item"
+				item: "yuushya:the_encyclopedia"
+			}]
+			rewards: [{
+				id: "2F713058337D9AC4"
+				type: "random"
+				table_id: 1291177147218470362L
+			}]
+		}
+		{
+			title: "Using magic"
+			x: 11.0d
+			y: 31.5d
+			shape: "rsquare"
+			description: ["踏入魔力大门"]
+			dependencies: ["5B368082F7986425"]
+			id: "641F1EE9A845D91A"
+			tasks: [
+				{
+					id: "77E8DDF326058EA2"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "2900785E91672A3D"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+				}
+				{
+					id: "386BA752A82B20E0"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+			]
+		}
+		{
+			title: "Upgrade equipment"
+			x: 20.0d
+			y: 23.5d
+			dependencies: ["0365BF84219EE59A"]
+			id: "0BA003C441001DA8"
+			tasks: [{
+				id: "6059C98542C712C4"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+		}
+		{
+			title: "Vanilla's Best"
+			x: 18.5d
+			y: 23.5d
+			description: ["材料达到顶峰？"]
+			dependencies: ["23AC452D3C4FADA3"]
+			id: "0365BF84219EE59A"
+			tasks: [{
+				id: "4E110CC7D8E34CC1"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			title: "Making pizza"
+			x: 3.5d
+			y: 34.5d
+			description: [
+				"First grind the wheat in mortar and pestle."
+				"首先先将小麦放入mortar and pestle研磨"
+			]
+			dependencies: ["68AB4637A7995E8C"]
+			id: "1809CD74E06382E1"
+			tasks: [
+				{
+					id: "467DD7B86F4464F4"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 64L
+				}
+				{
+					id: "7A503B776653DA8F"
+					type: "item"
+					item: "pizzacraft:mortar_and_pestle"
+				}
+			]
+			rewards: [{
+				id: "5BD56C88F637ABD3"
+				type: "item"
+				item: {
+					id: "pizzacraft:chef_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Making pastry"
+			x: 3.5d
+			y: 36.0d
+			description: [
+				"Place dough on ground and right click it with rolling pin until you get the proper shape."
+				"将面团放在地上，用擀面杖右击，直到得到适当的形状。"
+			]
+			dependencies: ["1809CD74E06382E1"]
+			id: "03ED670EE2264434"
+			tasks: [
+				{
+					id: "68CCF8DC865CFCF3"
+					type: "item"
+					item: "pizzacraft:flour"
+					count: 16L
+				}
+				{
+					id: "7CCCBFA7F9BE6C4E"
+					type: "item"
+					item: "pizzacraft:dough"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "2B72AF322DD03EFE"
+					type: "item"
+					item: {
+						id: "pizzacraft:rolling_pin"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "600ABC57B95683D3"
+					type: "item"
+					item: {
+						id: "pizzacraft:chef_shirt"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fill with stuffing"
+			x: 3.5d
+			y: 37.5d
+			description: [
+				"After that, you can start adding ingredients to your pizza - by right click or by use of GUI."
+				"之后，你可以开始向你的披萨胚子里添加配料--通过右击或使用GUI。"
+			]
+			dependencies: ["03ED670EE2264434"]
+			id: "7E51E942AB8A0121"
+			tasks: [{
+				id: "277D64323F0C6133"
+				type: "item"
+				item: "pizzacraft:tomato"
+				count: 2L
+			}]
+			rewards: [{
+				id: "234224BC90D7F324"
+				type: "item"
+				item: {
+					id: "pizzacraft:chef_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Baked pizza"
+			x: 3.5d
+			y: 39.0d
+			description: [
+				"Place your pizza on the top of the oven, you'll notice beautiful process of pizza baking."
+				"将披萨胚子放到烤炉上方，您将会看到美丽的烟气"
+			]
+			dependencies: ["7E51E942AB8A0121"]
+			id: "138631BF378F2FEF"
+			tasks: [{
+				id: "3620EE03582B8DCB"
+				type: "item"
+				item: {
+					id: "pizzacraft:diamond_pizza_peel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A255E7D9850CFD4"
+				type: "item"
+				item: {
+					id: "pizzacraft:chef_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "That's not funny."
+			x: 18.5d
+			y: 25.0d
+			description: ["你一定在开玩笑对吧？"]
+			dependencies: ["0365BF84219EE59A"]
+			id: "31AB0DBE36264F85"
+			tasks: [{
+				id: "17F658C36A4D4947"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Try to....."
+			x: 9.5d
+			y: 16.0d
+			description: ["让我们来盖房子吧"]
+			dependencies: ["13AAD224DD859E67"]
+			id: "2E3DC413752BACFC"
+			tasks: [
+				{
+					id: "02B6B53402DFDEDB"
+					type: "item"
+					item: "yuushya:deco_blueprint"
+				}
+				{
+					id: "7E284016C2A6F697"
+					type: "item"
+					item: "yuushya:dailylife_stuff_blueprint"
+				}
+				{
+					id: "204FD26E7285A68C"
+					type: "item"
+					item: "yuushya:sign_blueprint"
+				}
+				{
+					id: "7FAFCB05988B3B27"
+					type: "item"
+					item: "yuushya:furniture_blueprint"
+				}
+				{
+					id: "4ED8C6866FBB40A5"
+					type: "item"
+					item: "yuushya:facility_blueprint"
+				}
+				{
+					id: "571FAF35C36A373D"
+					type: "item"
+					item: "yuushya:extra_shapes_blueprint"
+				}
+				{
+					id: "126BBF08BEC0E48D"
+					type: "item"
+					item: "yuushya:side_slab_blueprint"
+				}
+				{
+					id: "271BF320FA7AD814"
+					type: "item"
+					item: "yuushya:slab_blueprint"
+				}
+				{
+					id: "5128F0B4F917F686"
+					type: "item"
+					item: "yuushya:stairs_blueprint"
+				}
+				{
+					id: "3B1EF0114764AAD3"
+					type: "item"
+					item: "yuushya:ridge_blueprint"
+				}
+				{
+					id: "050135A5EF04080A"
+					type: "item"
+					item: "yuushya:layer_blueprint"
+				}
+				{
+					id: "44E32A527F9D54C4"
+					type: "item"
+					item: "yuushya:column_blueprint"
+				}
+				{
+					id: "34F97059A07F88EA"
+					type: "item"
+					item: "yuushya:crossbeam_blueprint"
+				}
+				{
+					id: "2BD7FD25BDC91763"
+					type: "item"
+					item: "yuushya:frame_stuff_blueprint"
+				}
+			]
+			rewards: [{
+				id: "21831A9977675BC6"
+				type: "random"
+				table_id: 8223677760680305777L
+			}]
+		}
+		{
+			title: "Everything!"
+			x: 9.5d
+			y: 17.5d
+			description: ["万物之源"]
+			dependencies: ["33A966373356C75B"]
+			id: "13AAD224DD859E67"
+			tasks: [{
+				id: "237DB7F62AC46E44"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+			rewards: [
+				{
+					id: "3A2453EB45024045"
+					type: "item"
+					item: "yuushya:block_blueprint"
+					count: 12
+				}
+				{
+					id: "0DA627AD148C3B92"
+					type: "random"
+					table_id: 8223677760680305777L
+				}
+			]
+		}
+		{
+			title: "Encyclopedia of Birds"
+			x: 12.5d
+			y: 19.0d
+			dependencies: ["6A27F41B6A49305B"]
+			id: "6C7161606C9BE484"
+			tasks: [{
+				id: "41AB3C178454D20F"
+				type: "item"
+				item: "exoticbirds:bird_book"
+			}]
+			rewards: [{
+				id: "50B201DD09778089"
+				type: "item"
+				item: "exoticbirds:mystery_egg"
+			}]
+		}
+		{
+			title: "Birdcage"
+			x: 12.5d
+			y: 17.5d
+			dependencies: ["6C7161606C9BE484"]
+			id: "62CE08D4CA4E54BE"
+			tasks: [{
+				id: "346527C93D5507D4"
+				type: "item"
+				item: "exoticbirds:iron_birdcage"
+			}]
+			rewards: [{
+				id: "21BA7D477E625B5D"
+				type: "item"
+				item: "exoticbirds:mystery_egg"
+			}]
+		}
+		{
+			title: " Let me see"
+			x: 11.0d
+			y: 16.0d
+			dependencies: ["62CE08D4CA4E54BE"]
+			id: "5395259B517C28A1"
+			tasks: [
+				{
+					id: "23F976E492E822BF"
+					type: "item"
+					item: "exoticbirds:egg_identifier"
+				}
+				{
+					id: "13751BDE9BBC793A"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "40E9486779791F53"
+				type: "item"
+				item: "exoticbirds:mystery_egg"
+				count: 8
+			}]
+		}
+		{
+			title: "A better birdcage (maybe)"
+			x: 12.5d
+			y: 16.0d
+			dependencies: ["62CE08D4CA4E54BE"]
+			id: "3BCF9528E8067521"
+			tasks: [{
+				id: "64D27E0D7B22D4C0"
+				type: "item"
+				item: "exoticbirds:gold_birdcage"
+			}]
+			rewards: [{
+				id: "5596F3F980BD433E"
+				type: "item"
+				item: "exoticbirds:mystery_egg"
+			}]
+		}
+		{
+			title: "New Creature"
+			x: 14.0d
+			y: 16.0d
+			dependencies: [
+				"62CE08D4CA4E54BE"
+				"5395259B517C28A1"
+			]
+			id: "0B0F87D0A6B64BE3"
+			tasks: [{
+				id: "57CF90C32E3A600B"
+				type: "item"
+				item: "exoticbirds:egg_incubator"
+			}]
+			rewards: [{
+				id: "29B1B10D5557A7FC"
+				type: "item"
+				item: "exoticbirds:mystery_egg"
+			}]
+		}
+		{
+			title: "Back To Nature"
+			x: 12.5d
+			y: 14.5d
+			dependencies: [
+				"5395259B517C28A1"
+				"3BCF9528E8067521"
+				"0B0F87D0A6B64BE3"
+			]
+			id: "5D6040CDEB875487"
+			tasks: [{
+				id: "14B3614E213ACD3D"
+				type: "item"
+				item: "exoticbirds:nest"
+			}]
+			rewards: [{
+				id: "51094B525CE8BA7C"
+				type: "item"
+				item: "exoticbirds:mystery_egg"
+				count: 8
+			}]
+		}
+		{
+			title: "It's time for a break"
+			x: 11.0d
+			y: 19.0d
+			shape: "square"
+			description: [
+				"休息一下吧"
+				"aaaaaaw"
+			]
+			dependencies: ["37A3F4B935C812C1"]
+			id: "6A27F41B6A49305B"
+			tasks: [{
+				id: "5E251E5EC94EFD43"
+				type: "item"
+				item: "minecraft:red_bed"
+			}]
+			rewards: [
+				{
+					id: "4B74F6919DDD3923"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5300806BA9E0207F"
+					type: "item"
+					item: "theabyss:jungle_melon_item"
+				}
+				{
+					id: "5976CE46C20EF1F8"
+					type: "random"
+					table_id: 1291177147218470362L
+				}
+				{
+					id: "10C20138B47EC37D"
+					type: "item"
+					item: "rankine:fire_clay_ball"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "First time in the goblin field"
+			x: 15.5d
+			y: 26.5d
+			description: ["车万女仆！"]
+			dependencies: ["17C866516F627429"]
+			id: "178B9BFD1D795724"
+			tasks: [
+				{
+					id: "663F3A3AA54AB800"
+					type: "kill"
+					entity: "touhou_little_maid:fairy"
+					value: 2L
+				}
+				{
+					id: "77FDFF568AF6BCD5"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "584728F3F3E7EEFE"
+				type: "item"
+				item: "touhou_little_maid:power_point"
+				count: 5
+			}]
+		}
+		{
+			x: 14.0d
+			y: 26.5d
+			description: [
+				"Throw Power, get energy, you have up to 5 points of power"
+				"投掷P点 以获得能量，你最多可以持有5点能量"
+			]
+			dependencies: ["178B9BFD1D795724"]
+			id: "29633A0C507DE3EE"
+			tasks: [{
+				id: "6CBA0AFD44334C8A"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:hakurei_gohei"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 28.0d
+			description: [
+				"Follow Lectern_Books to build a multiparty fast altar"
+				"跟随“记忆中的幻想乡” 建造一个 多方块祭坛"
+			]
+			dependencies: ["29633A0C507DE3EE"]
+			id: "62E8D328931657D3"
+			tasks: [
+				{
+					id: "03A28545463771B7"
+					type: "checkmark"
+					title: "Your first multi-party fast structure"
+				}
+				{
+					id: "608CF465E510E716"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 18L
+				}
+				{
+					id: "30B2B0F497B8DAD7"
+					type: "item"
+					item: "minecraft:red_wool"
+					count: 20L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 26.5d
+			description: [
+				"Can store \"Power\" decorations"
+				"可以储存P点的 装饰品"
+			]
+			dependencies: [
+				"62E8D328931657D3"
+				"29633A0C507DE3EE"
+			]
+			id: "210E798B0CF438C0"
+			tasks: [{
+				id: "5019D58272D11802"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:maid_beacon"
+					Count: 1b
+					tag: {
+						StorageData: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 28.0d
+			description: ["Bed for maids"]
+			dependencies: ["62E8D328931657D3"]
+			id: "69CC12B85BF2CD26"
+			tasks: [{
+				id: "36E63ED5BAC2C697"
+				type: "item"
+				item: "touhou_little_maid:maid_bed"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 28.0d
+			description: [
+				"Can capture maids (probably)"
+				"可以用相片捕捉女仆"
+			]
+			dependencies: ["62E8D328931657D3"]
+			id: "6735763044F9AD3F"
+			tasks: [
+				{
+					id: "2114FBEF24C152A4"
+					type: "item"
+					item: {
+						id: "touhou_little_maid:camera"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B320681D1DE0BD0"
+					type: "item"
+					item: {
+						id: "touhou_little_maid:entity_placeholder"
+						Count: 1b
+						tag: {
+							RecipeId: "touhou_little_maid:altar/reborn_maid"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 28.0d
+			description: ["Bag for maids"]
+			dependencies: ["69CC12B85BF2CD26"]
+			id: "38B04CD5954C8A5F"
+			tasks: [{
+				id: "729DC2D24DD6057A"
+				type: "item"
+				item: "touhou_little_maid:maid_backpack_small"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 28.0d
+			description: ["One Step Ahead"]
+			dependencies: ["38B04CD5954C8A5F"]
+			id: "5932F23E15136935"
+			tasks: [{
+				id: "0C631895EACEE16A"
+				type: "item"
+				item: "touhou_little_maid:maid_backpack_big"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 26.5d
+			dependencies: ["69CC12B85BF2CD26"]
+			id: "115A85511B615EB6"
+			tasks: [{
+				id: "2DD49E9B95401003"
+				type: "item"
+				item: "touhou_little_maid:item_magnet_bauble"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 28.0d
+			description: [
+				"Can call back your maid"
+				"自己看物品描述！！！（我可太懒了）"
+			]
+			dependencies: ["6735763044F9AD3F"]
+			id: "6223B958AF4FD022"
+			tasks: [{
+				id: "6CFB629A843FAAF6"
+				type: "item"
+				item: "touhou_little_maid:trumpet"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 26.5d
+			description: ["Chairs for maids"]
+			dependencies: ["210E798B0CF438C0"]
+			id: "01BACE01313C8607"
+			tasks: [{
+				id: "7E9F9969D615DB2F"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:chair"
+					Count: 1b
+					tag: {
+						IsNoGravity: 0b
+						MountedHeight: -0.0625f
+						TameableCanRide: 1b
+						ModelId: "touhou_little_maid:bowl"
+					}
+				}
+			}]
+		}
+		{
+			x: 27.5d
+			y: 19.0d
+			shape: "square"
+			dependencies: ["7BB78F631487493B"]
+			id: "5F1D383CA39A17D8"
+			tasks: [{
+				id: "7BEE69542134BAB8"
+				type: "advancement"
+				advancement: "prehistoricfauna:prehistoricfauna/general/time_temple"
+				criterion: ""
+			}]
+		}
+		{
+			x: 29.0d
+			y: 19.0d
+			dependencies: ["5F1D383CA39A17D8"]
+			id: "4C0685D89D77EE6C"
+			tasks: [{
+				id: "7C956EC06D28A409"
+				type: "kill"
+				entity: "prehistoricfauna:henos"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4780169916C8C9EE"
+				type: "random"
+				table_id: 1291177147218470362L
+			}]
+		}
+		{
+			x: 33.5d
+			y: 19.0d
+			dependencies: ["4C0685D89D77EE6C"]
+			id: "0645F1D01F942370"
+			tasks: [{
+				id: "273EAFFA1A761A2C"
+				type: "item"
+				item: "prehistoricfauna:henostone"
+				count: 16L
+			}]
+		}
+		{
+			x: 30.5d
+			y: 19.0d
+			dependencies: ["4C0685D89D77EE6C"]
+			id: "6D269B00D76B2FE1"
+			tasks: [{
+				id: "76BC6513E6BF13C7"
+				type: "item"
+				item: "prehistoricfauna:time_totem"
+				count: 2L
+			}]
+		}
+		{
+			x: 33.5d
+			y: 17.5d
+			dependencies: ["0645F1D01F942370"]
+			id: "7E772110C27EB7F1"
+			tasks: [{
+				id: "73BD0376F41ECC8F"
+				type: "item"
+				item: "prehistoricfauna:portal_frame"
+			}]
+		}
+		{
+			x: 32.0d
+			y: 17.5d
+			dependencies: ["6D269B00D76B2FE1"]
+			id: "74A8B5F620C3ED81"
+			tasks: [{
+				id: "14CA111824088920"
+				type: "item"
+				item: {
+					id: "prehistoricfauna:cretaceous_time_totem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 30.5d
+			y: 17.5d
+			dependencies: ["6D269B00D76B2FE1"]
+			id: "12EFB4F2162914CF"
+			tasks: [{
+				id: "67320D6A18B6AB59"
+				type: "item"
+				item: {
+					id: "prehistoricfauna:jurassic_time_totem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 29.0d
+			y: 17.5d
+			dependencies: ["6D269B00D76B2FE1"]
+			id: "5C41A93780BC9688"
+			tasks: [{
+				id: "1960DB477B9BEE76"
+				type: "item"
+				item: {
+					id: "prehistoricfauna:triassic_time_totem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 32.0d
+			y: 16.5d
+			dependencies: ["74A8B5F620C3ED81"]
+			id: "293503580F711863"
+			tasks: [{
+				id: "006857BBBF8408D7"
+				type: "dimension"
+				dimension: "prehistoricfauna:cretaceous_dimension"
+			}]
+		}
+		{
+			x: 33.5d
+			y: 16.5d
+			dependencies: ["293503580F711863"]
+			id: "55B3380C1EC36833"
+			tasks: [{
+				id: "75B5408FEDCF6B00"
+				type: "kill"
+				entity: "prehistoricfauna:trilobite_sentinel"
+				value: 5L
+			}]
+		}
+		{
+			x: 33.5d
+			y: 15.5d
+			dependencies: ["7E772110C27EB7F1"]
+			id: "283C0A458EC3F539"
+			tasks: [{
+				id: "3275BA2FC6E73C56"
+				type: "advancement"
+				advancement: "prehistoricfauna:prehistoricfauna/general/looting_like_year"
+				criterion: ""
+			}]
+		}
+		{
+			x: 33.5d
+			y: 14.5d
+			dependencies: ["283C0A458EC3F539"]
+			id: "4AD4D68D20F5AB0F"
+			tasks: [{
+				id: "39C58577D08488B9"
+				type: "item"
+				item: "prehistoricfauna:ancient_journal"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 15.5d
+			dependencies: [
+				"12EFB4F2162914CF"
+				"293503580F711863"
+			]
+			id: "4387B004A6D24F7D"
+			tasks: [{
+				id: "01E11FA3C2531E58"
+				type: "dimension"
+				dimension: "prehistoricfauna:jurassic_dimension"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 16.5d
+			dependencies: ["4387B004A6D24F7D"]
+			id: "012878E5BA778850"
+			tasks: [{
+				id: "279097867C75C420"
+				type: "kill"
+				entity: "prehistoricfauna:stegosaurus"
+				value: 5L
+			}]
+		}
+		{
+			x: 30.5d
+			y: 14.5d
+			dependencies: ["012878E5BA778850"]
+			id: "62B2EB1B6FB9EDE9"
+			tasks: [{
+				id: "33E7EDB6BB78BD8A"
+				type: "item"
+				item: "prehistoricfauna:thagomizer"
+				count: 4L
+			}]
+		}
+		{
+			x: 32.0d
+			y: 14.5d
+			dependencies: ["62B2EB1B6FB9EDE9"]
+			id: "0349FBE3F3AF2336"
+			tasks: [{
+				id: "27747196283FBE78"
+				type: "item"
+				item: {
+					id: "prehistoricfauna:thagomizer_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 32.0d
+			y: 15.5d
+			dependencies: ["4387B004A6D24F7D"]
+			id: "5185E0B103D6562E"
+			tasks: [{
+				id: "65157B71A6AFFB97"
+				type: "kill"
+				entity: "prehistoricfauna:land_sentinel"
+				value: 5L
+			}]
+		}
+		{
+			x: 33.5d
+			y: 13.5d
+			dependencies: ["4AD4D68D20F5AB0F"]
+			id: "3DC4E61641068E35"
+			tasks: [{
+				id: "367AF25725CF9249"
+				type: "item"
+				item: "prehistoricfauna:paleoscribe"
+			}]
+			rewards: [
+				{
+					id: "50F87EEA1E96ABE5"
+					type: "item"
+					item: "prehistoricfauna:ancient_journal"
+				}
+				{
+					id: "548F52CE574870A7"
+					type: "item"
+					item: "prehistoricfauna:ancient_journal_page"
+					count: 6
+				}
+			]
+		}
+		{
+			x: 29.0d
+			y: 16.5d
+			dependencies: [
+				"5C41A93780BC9688"
+				"4387B004A6D24F7D"
+			]
+			id: "65FDAB607BBC76BE"
+			tasks: [{
+				id: "57FB02CD0A9737DD"
+				type: "dimension"
+				dimension: "prehistoricfauna:triassic_dimension"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 15.5d
+			dependencies: ["65FDAB607BBC76BE"]
+			id: "04363F567AE145CE"
+			tasks: [{
+				id: "12E7DDD5633CC123"
+				type: "item"
+				item: "prehistoricfauna:scytophyllum"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 14.5d
+			dependencies: ["04363F567AE145CE"]
+			id: "7984522AB017D500"
+			tasks: [{
+				id: "1D37F33090C6063C"
+				type: "item"
+				item: "prehistoricfauna:plant_fiber"
+				count: 2L
+			}]
+		}
+		{
+			x: 29.0d
+			y: 13.5d
+			dependencies: ["7984522AB017D500"]
+			id: "24DD45C23C2EFF53"
+			tasks: [{
+				id: "5610A227FCDC2A29"
+				type: "item"
+				item: "prehistoricfauna:plant_fiber_block"
+			}]
+		}
+		{
+			x: 27.5d
+			y: 15.5d
+			dependencies: ["65FDAB607BBC76BE"]
+			id: "3C594A673B328FA8"
+			tasks: [{
+				id: "70963E75E85D06B0"
+				type: "advancement"
+				advancement: "prehistoricfauna:prehistoricfauna/general/anti_lorax"
+				criterion: ""
+			}]
+		}
+		{
+			x: 27.5d
+			y: 16.5d
+			dependencies: ["65FDAB607BBC76BE"]
+			id: "0872CACB571769AE"
+			tasks: [{
+				id: "5473918F8845A630"
+				type: "advancement"
+				advancement: "prehistoricfauna:prehistoricfauna/general/weird_taxidermy"
+				criterion: ""
+			}]
+		}
+		{
+			x: 27.5d
+			y: 17.5d
+			dependencies: ["0872CACB571769AE"]
+			id: "0C24031EB3EE9591"
+			tasks: [{
+				id: "22162FFBC0B7C31A"
+				type: "advancement"
+				advancement: "prehistoricfauna:prehistoricfauna/general/frankenstein"
+				criterion: ""
+			}]
+		}
+		{
+			x: 29.0d
+			y: 12.5d
+			dependencies: ["24DD45C23C2EFF53"]
+			id: "76D81569ABC28672"
+			tasks: [{
+				id: "71D29E07581B3B01"
+				type: "item"
+				item: "prehistoricfauna:thatch"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 16.0d
+			dependencies: ["4D99FB6FB1FA4C38"]
+			id: "53DBDA292720D47E"
+			tasks: [{
+				id: "0809D3A4C86C65B5"
+				type: "kill"
+				entity: "meetyourfight:swampjaw"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2CEED8215BFE9E5B"
+				type: "random"
+				table_id: 1291177147218470362L
+			}]
+		}
+		{
+			x: 23.5d
+			y: 16.0d
+			dependencies: ["5291CA7B0225B60D"]
+			id: "4CBAE06BA0D4894F"
+			tasks: [{
+				id: "7D1B6AFB89279A17"
+				type: "kill"
+				entity: "meetyourfight:dame_fortuna"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0C9EE345C180D1F6"
+				type: "random"
+				table_id: 1291177147218470362L
+			}]
+		}
+		{
+			x: 21.5d
+			y: 16.0d
+			dependencies: ["3FB3D8C78B907347"]
+			id: "1B78A1E0F089FD2C"
+			tasks: [{
+				id: "07230F933CFEECF4"
+				type: "kill"
+				entity: "meetyourfight:bellringer"
+				value: 1L
+			}]
+			rewards: [{
+				id: "672390712170A69D"
+				type: "random"
+				table_id: 1291177147218470362L
+			}]
+		}
+		{
+			x: 23.5d
+			y: 17.5d
+			description: ["Boss召唤物"]
+			dependencies: ["7BB78F631487493B"]
+			id: "5291CA7B0225B60D"
+			tasks: [{
+				id: "24C9BF63C6F7BCA4"
+				type: "item"
+				item: "meetyourfight:devils_ante"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 17.5d
+			description: ["Boss召唤物"]
+			dependencies: ["7BB78F631487493B"]
+			id: "4D99FB6FB1FA4C38"
+			tasks: [{
+				id: "160FB5293A1E24AB"
+				type: "item"
+				item: "meetyourfight:fossil_bait"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 17.5d
+			description: ["Boss召唤物"]
+			dependencies: ["7BB78F631487493B"]
+			id: "3FB3D8C78B907347"
+			tasks: [{
+				id: "79A6B2D2597D938F"
+				type: "item"
+				item: "meetyourfight:haunted_bell"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 14.0d
+			dependencies: [
+				"53DBDA292720D47E"
+				"4CBAE06BA0D4894F"
+				"1B78A1E0F089FD2C"
+			]
+			id: "60AFB7ACB969A093"
+			tasks: [{
+				id: "17F4B47B5D0BC587"
+				type: "item"
+				item: "meetyourfight:marshy_delight"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 14.0d
+			dependencies: [
+				"53DBDA292720D47E"
+				"4CBAE06BA0D4894F"
+				"1B78A1E0F089FD2C"
+			]
+			id: "7BAA69EB3EB9BD42"
+			tasks: [{
+				id: "7462B1C59E69FDC8"
+				type: "item"
+				item: "meetyourfight:music_disc_magnum"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 14.0d
+			dependencies: [
+				"1B78A1E0F089FD2C"
+				"4CBAE06BA0D4894F"
+				"53DBDA292720D47E"
+			]
+			id: "0F9BDD68A4573B08"
+			tasks: [{
+				id: "7753E8C64D8F5AEF"
+				type: "item"
+				item: {
+					id: "meetyourfight:cocktail_cutlass"
+					Count: 1b
+					tag: {
+						EA_ENABLED: 1b
+						Damage: 0
+						RARITY: 1
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 36.0d
+			dependencies: ["4A46AD578293B084"]
+			id: "51A94CE41CEDDE7A"
+			tasks: [{
+				id: "1DD4FD58DE34194A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermopolium:book"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 33.0d
+			description: ["熬汤"]
+			dependencies: ["702D6028F4DC7C8F"]
+			id: "68314BE89B596714"
+			tasks: [
+				{
+					id: "7F21D6F330FB9875"
+					type: "item"
+					item: "thermopolium:clay_cistern"
+				}
+				{
+					id: "62B521F3A4AF5733"
+					type: "item"
+					item: "thermopolium:stew_pot"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 34.5d
+			dependencies: ["68314BE89B596714"]
+			id: "4A46AD578293B084"
+			tasks: [{
+				id: "7F439FD92D174179"
+				type: "item"
+				item: {
+					id: "thermopolium:plain_water"
+					Count: 1b
+					tag: {
+						type: "minecraft:water"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 31.5d
+			description: ["烹饪食物更加具有风味"]
+			dependencies: ["6A84B059DAD8E82F"]
+			id: "702D6028F4DC7C8F"
+			tasks: [{
+				id: "36007B3E07B219B4"
+				type: "item"
+				item: "thermopolium:kitchen_stove_t1"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 31.5d
+			description: ["近代烹饪工具"]
+			dependencies: ["702D6028F4DC7C8F"]
+			id: "6B465D248D4148ED"
+			tasks: [{
+				id: "7A89E913A40760C5"
+				type: "item"
+				item: "thermopolium:kitchen_stove_t2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 37.5d
+			description: ["检查你的指导书，制作你的汤品"]
+			dependencies: ["51A94CE41CEDDE7A"]
+			id: "59374EF8379AE2E0"
+			tasks: [{
+				id: "7AF69976EB9BB7AA"
+				type: "checkmark"
+				title: "Check the instruction book to make soup"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 22.0d
+			description: ["来自深渊的矿石"]
+			dependencies: ["0365BF84219EE59A"]
+			id: "4529D28C29F2D773"
+			tasks: [{
+				id: "65145079A4D75EF1"
+				type: "item"
+				item: "netherhexedkingdom:militus_alloy_ingot"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 20.5d
+			description: ["毁灭战士awa"]
+			dependencies: ["4529D28C29F2D773"]
+			id: "27AA110013F5733B"
+			tasks: [
+				{
+					id: "39380FE9CADFBFDC"
+					type: "item"
+					item: {
+						id: "netherhexedkingdom:militus_alloy_boots"
+						Count: 1b
+						tag: {
+							EA_ENABLED: 1b
+							Damage: 0
+							RARITY: 1
+						}
+					}
+				}
+				{
+					id: "333779EF8833D28A"
+					type: "item"
+					item: {
+						id: "netherhexedkingdom:militus_alloy_leggings"
+						Count: 1b
+						tag: {
+							EA_ENABLED: 1b
+							Damage: 0
+							RARITY: 1
+						}
+					}
+				}
+				{
+					id: "7733381C087B8CDA"
+					type: "item"
+					item: {
+						id: "netherhexedkingdom:militus_alloy_chestplate"
+						Count: 1b
+						tag: {
+							EA_ENABLED: 1b
+							Damage: 0
+							RARITY: 3
+						}
+					}
+				}
+				{
+					id: "01F4161D0F2C08FC"
+					type: "item"
+					item: {
+						id: "netherhexedkingdom:militus_alloy_helmet"
+						Count: 1b
+						tag: {
+							EA_ENABLED: 1b
+							Damage: 0
+							RARITY: 5
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "00332A098B0973AA"
+				type: "random"
+				table_id: 1291177147218470362L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 29.5d
+			description: ["不稳定的任务"]
+			dependencies: ["7070F7A2D5B0DF25"]
+			id: "60BE6D06CCB7AE2B"
+			tasks: [
+				{
+					id: "05EED7A7C5F58446"
+					type: "item"
+					item: "ars_nouveau:belt_of_unstable_gifts"
+				}
+				{
+					id: "743AE58DC91A786F"
+					type: "item"
+					item: "ars_nouveau:amulet_of_mana_regen"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 29.5d
+			dependencies: ["641F1EE9A845D91A"]
+			id: "7070F7A2D5B0DF25"
+			tasks: [
+				{
+					id: "7D6F3CBC221BD217"
+					type: "item"
+					item: "ars_nouveau:mundane_belt"
+				}
+				{
+					id: "75EB92AF43883162"
+					type: "item"
+					item: "ars_nouveau:dull_trinket"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 39.0d
+			dependencies: ["3A877B4B726760FE"]
+			id: "52BD1DF877445EFA"
+			tasks: [
+				{
+					id: "76EC7351D7D1D370"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F5E2BEB606FE72F"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3ECCEBD3FD2855FB"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "12410696D3ABFDD4"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 37.5d
+			dependencies: ["2CE199BD6BCCAFEE"]
+			id: "3A877B4B726760FE"
+			tasks: [{
+				id: "5B4D6E4BE4B3B3A0"
+				type: "item"
+				item: "ars_nouveau:blaze_fiber"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 33.0d
+			description: ["没有什么比南瓜派更美味了"]
+			dependencies: ["59F385B8BC369CA5"]
+			id: "6DCACDA8A95276DF"
+			tasks: [
+				{
+					id: "78C6CE69FE9EE5F8"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+				}
+				{
+					id: "7D4B9D12DA9D2B11"
+					type: "item"
+					item: "ars_nouveau:source_berry_roll"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 31.5d
+			description: [
+				"种田！种田！"
+				"不种田吃什么"
+			]
+			dependencies: ["6A84B059DAD8E82F"]
+			id: "59F385B8BC369CA5"
+			tasks: [
+				{
+					id: "5D50B55489018675"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "73D44A2F56978715"
+					type: "item"
+					item: "minecraft:pumpkin_pie"
+				}
+			]
+			rewards: [
+				{
+					id: "44172C978F04FED5"
+					type: "item"
+					item: "ars_nouveau:mana_berry"
+				}
+				{
+					id: "214C6B1B1C82A3BA"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 10
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 34.0d
+			description: ["印刷工艺"]
+			dependencies: [
+				"1572D03772DF8F03"
+				"51856B3E08240DAE"
+			]
+			id: "62DFD668DD2E0C5C"
+			tasks: [{
+				id: "4C4B6AE213820913"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 36.0d
+			description: ["织布机----（指的是你）"]
+			dependencies: ["1572D03772DF8F03"]
+			id: "2CE199BD6BCCAFEE"
+			tasks: [{
+				id: "25AF8960F818F00E"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 34.0d
+			description: ["没想到还是要耕种"]
+			dependencies: ["641F1EE9A845D91A"]
+			id: "1572D03772DF8F03"
+			tasks: [
+				{
+					id: "3A371808F73F488A"
+					type: "item"
+					item: "ars_nouveau:mana_bloom_crop"
+				}
+				{
+					id: "009BE64463C6CEFB"
+					type: "item"
+					item: "ars_nouveau:mana_bloom"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 36.0d
+			dependencies: ["2CE199BD6BCCAFEE"]
+			id: "51856B3E08240DAE"
+			tasks: [
+				{
+					id: "7BBE11B2D4ACE2DD"
+					type: "item"
+					item: "ars_nouveau:magic_clay"
+				}
+				{
+					id: "631DCCF1D68CCC63"
+					type: "item"
+					item: {
+						id: "ars_nouveau:runic_chalk"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 36.0d
+			dependencies: ["2CE199BD6BCCAFEE"]
+			id: "17E01C3A91E95901"
+			tasks: [
+				{
+					id: "112A2A6B67A5F925"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F4F8F3D01CD8EB8"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A9AB9A0A4D8DB91"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "59082FD3E3002081"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0712A523BD92B083"
+					type: "item"
+					item: "ars_elemental:curio_bag"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 34.0d
+			description: ["让我们来点魔印"]
+			dependencies: ["62DFD668DD2E0C5C"]
+			id: "5AC513C864202F06"
+			tasks: [
+				{
+					id: "608DBAEC10A47035"
+					type: "item"
+					item: "ars_nouveau:glyph_ignite"
+				}
+				{
+					id: "1C9C269C8D10B844"
+					type: "item"
+					item: "ars_nouveau:glyph_freeze"
+				}
+				{
+					id: "177B66B61E097621"
+					type: "item"
+					item: "ars_nouveau:glyph_break"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 37.5d
+			dependencies: ["40308EBB1A2228A8"]
+			id: "40172E440D895FF4"
+			tasks: [
+				{
+					id: "7EFC01A0C5A1A88A"
+					type: "item"
+					item: "ars_nouveau:glyph_grow"
+				}
+				{
+					id: "237EF9C453E83A8C"
+					type: "item"
+					item: "ars_nouveau:glyph_extract"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 36.0d
+			dependencies: ["51856B3E08240DAE"]
+			id: "40308EBB1A2228A8"
+			tasks: [{
+				id: "7D1760F63620DB28"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 36.0d
+			description: ["神话时代"]
+			dependencies: ["40308EBB1A2228A8"]
+			id: "4FAEFD57BB345AE9"
+			tasks: [{
+				id: "1BDAC4D17E0FE034"
+				type: "item"
+				item: "ars_nouveau:mythical_clay"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 29.0d
+			description: [
+				"Magic Source"
+				"魔力源泉"
+			]
+			dependencies: ["2C21576523E0E064"]
+			id: "55F43B4AC3ECA01B"
+			tasks: [{
+				id: "5732BC2B33C993AE"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 29.0d
+			description: [
+				"I believe that I don't need to teach you much about this"
+				"我觉得，这个东东不需要我教"
+			]
+			dependencies: ["55F43B4AC3ECA01B"]
+			id: "0344B8CE0FFEE2DC"
+			tasks: [
+				{
+					id: "6E584A273B280E6D"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "660D5A0A51CB2355"
+					type: "item"
+					item: {
+						id: "minecraft:water_bucket"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "18CB0FF8E04F4358"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+				}
+				{
+					id: "77F760B634DC380A"
+					type: "item"
+					item: "minecraft:blaze_powder"
+				}
+			]
+		}
+		{
+			x: 22.5d
+			y: 27.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "783C24EC66AA9C85"
+			tasks: [{
+				id: "6E4B3A126D1DFD88"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+			}]
+		}
+		{
+			x: 25.5d
+			y: 29.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "5330DF3EF58DDFC9"
+			tasks: [
+				{
+					id: "03A7D9B96525C1B5"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "41536134D76951F4"
+					type: "item"
+					item: "minecraft:rabbit_foot"
+				}
+				{
+					id: "5C644DBE4C4DD506"
+					type: "item"
+					item: "minecraft:glistering_melon_slice"
+				}
+				{
+					id: "303569B1FCCE3162"
+					type: "item"
+					item: "minecraft:fermented_spider_eye"
+				}
+			]
+		}
+		{
+			x: 23.5d
+			y: 27.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "01026D1274091490"
+			tasks: [
+				{
+					id: "1A19379010EE8E5D"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "3A51ECB632727D70"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+			]
+			rewards: [{
+				id: "19AAC0D7BD6F9D8B"
+				type: "item"
+				item: "minecraft:tnt_minecart"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 27.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "7D9F91F5617F5AB4"
+			tasks: [{
+				id: "4C82B859EF9DA178"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+			}]
+		}
+		{
+			x: 21.5d
+			y: 30.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "07566B185F745179"
+			tasks: [{
+				id: "1477C7C8EBDC8342"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: 21.5d
+			y: 28.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "3E5E7AD702A84C23"
+			tasks: [{
+				id: "30F4E6FF49DA8B49"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: 25.5d
+			y: 28.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "37883B14672368A9"
+			tasks: [{
+				id: "0079379C574EED66"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+			}]
+		}
+		{
+			x: 25.5d
+			y: 30.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "06EDCACFE57054E7"
+			tasks: [{
+				id: "37AE1B4436F277B1"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strength"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 28.0d
+			dependencies: ["17C866516F627429"]
+			id: "387A587DE0A7E586"
+			tasks: [{
+				id: "594F6BE749FE53C7"
+				type: "item"
+				item: "tombstone:dust_of_vanishing"
+				count: 16L
+			}]
+		}
+		{
+			x: 17.0d
+			y: 31.0d
+			dependencies: ["387A587DE0A7E586"]
+			id: "49C80C6CD3A559B4"
+			tasks: [{
+				id: "12A13F5708644737"
+				type: "item"
+				item: {
+					id: "tombstone:ankh_of_pray"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 31.0d
+			dependencies: ["085D83CDB9EA6CE6"]
+			id: "053A5827A13C065E"
+			tasks: [{
+				id: "6B8597D85379E270"
+				type: "item"
+				item: "tombstone:familiar_receptacle"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 31.0d
+			dependencies: ["49C80C6CD3A559B4"]
+			id: "085D83CDB9EA6CE6"
+			tasks: [{
+				id: "212BE4081A78E052"
+				type: "item"
+				item: "tombstone:voodoo_poppet"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 29.5d
+			dependencies: ["387A587DE0A7E586"]
+			id: "084D567E1F81D026"
+			tasks: [{
+				id: "69BADA9D22410B14"
+				type: "item"
+				item: "tombstone:strange_scroll"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 29.5d
+			dependencies: ["3F51BD73AA6A1213"]
+			id: "56FA77265262B7DE"
+			tasks: [
+				{
+					id: "0C7F7C5853B0DFA9"
+					type: "item"
+					item: "tombstone:tablet_of_recall"
+				}
+				{
+					id: "11F3724B93842EA5"
+					type: "item"
+					item: {
+						id: "tombstone:tablet_of_assistance"
+						Count: 1b
+						tag: {
+							ancient: 1b
+						}
+					}
+				}
+				{
+					id: "3ABBF550FAC81F99"
+					type: "item"
+					item: "tombstone:tablet_of_assistance"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 29.5d
+			dependencies: ["084D567E1F81D026"]
+			id: "3F51BD73AA6A1213"
+			tasks: [{
+				id: "6ED105E68135E385"
+				type: "item"
+				item: "tombstone:strange_tablet"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 28.0d
+			dependencies: ["387A587DE0A7E586"]
+			id: "4495E370950AB939"
+			tasks: [{
+				id: "7D22E895E985FA59"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_simple"
+					Count: 1b
+					tag: {
+						model_texture: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: 26.5d
+			dependencies: ["5841E8AA635E7DD5"]
+			id: "5E112E2C31816D8C"
+			tasks: [
+				{
+					id: "4A568CFE3A1A2378"
+					type: "item"
+					item: "tombstone:book_of_recycling"
+				}
+				{
+					id: "774C24C2C39C33BA"
+					type: "item"
+					item: "tombstone:book_of_repairing"
+				}
+				{
+					id: "73B5777BA8DBD4DE"
+					type: "item"
+					item: "tombstone:book_of_magic_impregnation"
+				}
+			]
+		}
+		{
+			x: 20.0d
+			y: 28.0d
+			dependencies: ["4495E370950AB939"]
+			id: "5841E8AA635E7DD5"
+			tasks: [{
+				id: "44BBE64D92BDACCA"
+				type: "item"
+				item: "tombstone:book_of_disenchantment"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 29.5d
+			dependencies: ["387A587DE0A7E586"]
+			id: "7989ED59157BE85D"
+			tasks: [{
+				id: "193FEA9265D072AF"
+				type: "item"
+				item: {
+					id: "tombstone:fishing_rod_of_misadventure"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: 29.5d
+			dependencies: ["7989ED59157BE85D"]
+			id: "02A7DBC862644B8F"
+			tasks: [{
+				id: "62040EB513D97340"
+				type: "item"
+				item: {
+					id: "tombstone:fishing_rod_of_misadventure"
+					Count: 1b
+					tag: {
+						Damage: 0
+						enchant: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: 31.0d
+			dependencies: ["02A7DBC862644B8F"]
+			id: "131B8043CB19E542"
+			tasks: [{
+				id: "41FD5CD315231AC9"
+				type: "item"
+				item: {
+					id: "tombstone:fishing_rod_of_misadventure"
+					Count: 1b
+					tag: {
+						Damage: 0
+						ancient: 1b
+						enchant: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 20.5d
+			dependencies: ["7236015D43E4BAD7"]
+			id: "50CBE6D87B832135"
+			tasks: [
+				{
+					id: "11CB3BEEE55ED9FD"
+					type: "item"
+					item: "refinedstorage:processor_binding"
+				}
+				{
+					id: "36B2E42EEB06AC00"
+					type: "item"
+					item: "refinedstorage:silicon"
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: 22.0d
+			dependencies: ["23AC452D3C4FADA3"]
+			id: "7236015D43E4BAD7"
+			tasks: [{
+				id: "05F92998A71785F0"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 22.0d
+			dependencies: ["7236015D43E4BAD7"]
+			id: "62AAD025BCF89D56"
+			tasks: [{
+				id: "3CA28D2EDBCF8452"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 19.0d
+			dependencies: ["50CBE6D87B832135"]
+			id: "1A2A1DF0DFA052ED"
+			tasks: [
+				{
+					id: "28E8E09DC6E14D0E"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+				{
+					id: "6BBDBE3A9602EED5"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: 19.0d
+			dependencies: [
+				"265E56216EDE1A09"
+				"62AAD025BCF89D56"
+			]
+			id: "4234AB4EA7924732"
+			tasks: [{
+				id: "1E503D97A2C587BD"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 17.5d
+			dependencies: [
+				"4234AB4EA7924732"
+				"3A9B79A73410CAB8"
+			]
+			id: "60DAE5A4E2E9AC56"
+			tasks: [
+				{
+					id: "5C48973C527240F5"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+				}
+				{
+					id: "0F788C28FB239973"
+					type: "item"
+					item: "refinedstorage:grid"
+				}
+				{
+					id: "0A0B8CA730D59C48"
+					type: "item"
+					item: "refinedstorage:cable"
+					count: 24L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 19.0d
+			dependencies: ["1A2A1DF0DFA052ED"]
+			id: "265E56216EDE1A09"
+			tasks: [
+				{
+					id: "5701016719944F80"
+					type: "item"
+					item: "refinedstorage:1k_storage_disk"
+				}
+				{
+					id: "3E33AF5A4492885B"
+					type: "item"
+					item: "refinedstorage:1k_storage_part"
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: 16.0d
+			description: [
+				"Controller requires power generation"
+				"控制器需要电能"
+			]
+			dependencies: ["60DAE5A4E2E9AC56"]
+			id: "0579BF67EF66524E"
+			tasks: [{
+				id: "6F88EA7C6DF92D74"
+				type: "item"
+				item: "engineersdecor:small_solar_panel"
+			}]
+		}
+		{
+			title: "Check the wiki and achievement progress by yourself"
+			x: 15.5d
+			y: 17.5d
+			description: ["自己动手丰衣足食（自行查阅Wiki和进度L)"]
+			dependencies: ["265E56216EDE1A09"]
+			id: "21012552A6534D4D"
+			tasks: [{
+				id: "59D246CCC7B76DD4"
+				type: "checkmark"
+				title: "1"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 16.0d
+			dependencies: ["21012552A6534D4D"]
+			id: "152B29ABA9023EBB"
+			tasks: [
+				{
+					id: "29317F68FC930E1E"
+					type: "item"
+					item: "refinedstorage:4096k_fluid_storage_part"
+				}
+				{
+					id: "6AD65B29A377A9FF"
+					type: "item"
+					item: "refinedstorage:4096k_fluid_storage_disk"
+				}
+			]
+		}
+		{
+			x: 22.5d
+			y: 31.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "184DA469F7A9D5A5"
+			tasks: [{
+				id: "7F8A8C761DD68C60"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "ars_nouveau:mana_regen_potion_long"
+					}
+				}
+			}]
+		}
+		{
+			x: 23.5d
+			y: 31.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "06B0C60F50A3A8DE"
+			tasks: [{
+				id: "582C60A58CE48D20"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "ars_nouveau:spell_damage_strong"
+					}
+				}
+			}]
+		}
+		{
+			x: 24.5d
+			y: 31.0d
+			dependencies: ["0344B8CE0FFEE2DC"]
+			id: "11DC1A587E06A06A"
+			tasks: [{
+				id: "57615C2DEC8C144D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "cold_sweat:ice_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: 32.5d
+			y: 27.5d
+			description: [
+				"有一天，你拜访了一个古怪的房子"
+				"格格不入的现代化闹钟"
+				"神秘的低语声"
+			]
+			dependencies: ["2BFE455A0FE8E997"]
+			id: "1FBCFD53AF50FC16"
+			tasks: [{
+				id: "469E982D513F9FA8"
+				type: "structure"
+				structure: "theabyss:forest_hut"
+			}]
+		}
+		{
+			x: 34.0d
+			y: 30.5d
+			description: ["正式踏入深渊"]
+			dependencies: ["535C5473701A2CB3"]
+			id: "37641989652B126A"
+			tasks: [{
+				id: "6B4D0AB0C5E9E34F"
+				type: "dimension"
+				dimension: "theabyss:the_abyss"
+			}]
+		}
+		{
+			x: 34.0d
+			y: 27.5d
+			description: ["在梦境中，你找到了很多loran"]
+			dependencies: ["1FBCFD53AF50FC16"]
+			id: "535C5473701A2CB3"
+			tasks: [
+				{
+					id: "7A4BCE6055313D04"
+					type: "item"
+					item: "theabyss:unstable_obsidian"
+				}
+				{
+					id: "4133BA7CB989A05C"
+					type: "item"
+					item: {
+						id: "theabyss:the_abyss"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 32.5d
+			y: 34.0d
+			description: ["是时候迎战了"]
+			dependencies: ["79EF74C59CA8FFF8"]
+			id: "1F48BF64B7023025"
+			tasks: [{
+				id: "7FD2FE75D2CF8E93"
+				type: "kill"
+				entity: "theabyss:nightblade_boss"
+				value: 1L
+			}]
+			rewards: [{
+				id: "50B265E1F5B9170F"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 35.5d
+			y: 34.0d
+			dependencies: ["79EF74C59CA8FFF8"]
+			id: "461FE34900D99C55"
+			tasks: [{
+				id: "757773A08A0DD4F9"
+				type: "kill"
+				entity: "the_arcaneum:spinosaurus"
+				value: 1L
+			}]
+		}
+		{
+			x: 31.0d
+			y: 34.0d
+			dependencies: ["1F48BF64B7023025"]
+			id: "55C7D84A07F77B82"
+			tasks: [{
+				id: "3E737BD97120704F"
+				type: "item"
+				item: {
+					id: "theabyss:abyss_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 34.0d
+			y: 34.0d
+			description: ["希望你做了充足的准备"]
+			dependencies: [
+				"4059907A3E880C33"
+				"597537646D7214D5"
+				"4D2DDDF3EF27BBF8"
+			]
+			id: "79EF74C59CA8FFF8"
+			tasks: [
+				{
+					id: "37EBAFDDD0FCBDF7"
+					type: "item"
+					item: "theabyss:eye_of_abyss"
+				}
+				{
+					id: "749AA617A3CF91C1"
+					type: "item"
+					item: "theabyss:soul_heart"
+				}
+			]
+			rewards: [{
+				id: "6A8C902B4AD5FA54"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 37.0d
+			y: 34.0d
+			dependencies: ["461FE34900D99C55"]
+			id: "562E633DDF28C503"
+			tasks: [{
+				id: "113F886B43A780B0"
+				type: "item"
+				item: {
+					id: "the_arcaneum:spinosaurus_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 35.5d
+			y: 35.5d
+			dependencies: ["461FE34900D99C55"]
+			id: "72182F55DCFAF471"
+			tasks: [{
+				id: "4EB4306540D4DB67"
+				type: "item"
+				item: "the_arcaneum:spinosaurus_sigil"
+			}]
+		}
+		{
+			x: 34.0d
+			y: 29.0d
+			dependencies: ["37641989652B126A"]
+			id: "16FC6A22C3CFCCE4"
+			tasks: [{
+				id: "6403725150C60FF1"
+				type: "item"
+				item: {
+					id: "theabyss:frost_world"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0DC5BE396389CF59"
+				type: "item"
+				item: "theabyss:dark_stone"
+				count: 12
+			}]
+		}
+		{
+			x: 35.5d
+			y: 30.5d
+			dependencies: ["37641989652B126A"]
+			id: "3577073D6AE0FE9F"
+			tasks: [{
+				id: "028DEA7F77D9D070"
+				type: "structure"
+				structure: "theabyss:abylager_hut"
+			}]
+		}
+		{
+			x: 37.0d
+			y: 30.5d
+			dependencies: ["3577073D6AE0FE9F"]
+			id: "7B1308ECC5387F97"
+			tasks: [
+				{
+					id: "70D9A42B7ABF1B1B"
+					type: "item"
+					item: "theabyss:somnium_infuser"
+				}
+				{
+					id: "19D5E5267D869DCC"
+					type: "item"
+					item: "theabyss:somnium_extractor"
+				}
+			]
+		}
+		{
+			x: 34.0d
+			y: 32.0d
+			dependencies: ["37641989652B126A"]
+			id: "4059907A3E880C33"
+			tasks: [{
+				id: "4225D8289844F037"
+				type: "kill"
+				entity: "theabyss:elder"
+				value: 1L
+			}]
+		}
+		{
+			x: 32.5d
+			y: 32.0d
+			dependencies: ["6462F6866D8AB17C"]
+			id: "597537646D7214D5"
+			tasks: [{
+				id: "5F0687BFE18458A2"
+				type: "kill"
+				entity: "theabyss:the_roka"
+				value: 1L
+			}]
+		}
+		{
+			x: 35.5d
+			y: 32.0d
+			dependencies: ["37641989652B126A"]
+			id: "4D2DDDF3EF27BBF8"
+			tasks: [{
+				id: "4213CDC3EC94DABA"
+				type: "kill"
+				entity: "theabyss:crystal_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: 38.5d
+			y: 30.5d
+			dependencies: ["7B1308ECC5387F97"]
+			id: "03B1D5D48940C149"
+			tasks: [{
+				id: "74B2A8429898FE34"
+				type: "item"
+				item: "theabyss:bottle_of_somnium"
+			}]
+		}
+		{
+			x: 40.0d
+			y: 29.0d
+			dependencies: ["03B1D5D48940C149"]
+			id: "3732EF7951869F4C"
+			tasks: [{
+				id: "496C0E35F90D91E4"
+				type: "item"
+				item: "theabyss:enchanted_bottle_of_somnium"
+			}]
+		}
+		{
+			x: 37.0d
+			y: 32.0d
+			dependencies: ["03B1D5D48940C149"]
+			id: "1FB0D8709F5B9B8D"
+			tasks: [{
+				id: "34E672655649465F"
+				type: "item"
+				item: "theabyss:somnium_upgrade"
+			}]
+		}
+		{
+			x: 40.0d
+			y: 30.5d
+			dependencies: ["03B1D5D48940C149"]
+			id: "5ADB23492AB943EB"
+			tasks: [{
+				id: "547B3819B9170707"
+				type: "item"
+				item: "theabyss:somnium_regen_upgrade"
+			}]
+		}
+		{
+			x: 40.0d
+			y: 32.0d
+			dependencies: ["03B1D5D48940C149"]
+			id: "6B5D8EC873514724"
+			tasks: [{
+				id: "347E6A1B6CBBA858"
+				type: "item"
+				item: "theabyss:somnium_cooldown_upgrade"
+			}]
+		}
+		{
+			x: 38.5d
+			y: 32.0d
+			dependencies: ["03B1D5D48940C149"]
+			id: "7A0278FDBA395509"
+			tasks: [{
+				id: "2CF83208274404E2"
+				type: "item"
+				item: "theabyss:somnium_damage_upragde"
+			}]
+		}
+		{
+			x: 32.5d
+			y: 30.5d
+			dependencies: ["37641989652B126A"]
+			id: "6462F6866D8AB17C"
+			tasks: [{
+				id: "05855083BE568008"
+				type: "structure"
+				structure: "theabyss:abyss_dungeon"
+			}]
+		}
+		{
+			x: 35.5d
+			y: 29.0d
+			dependencies: ["16FC6A22C3CFCCE4"]
+			id: "441C6374AACE8719"
+			tasks: [{
+				id: "69B2760E22E38C44"
+				type: "dimension"
+				dimension: "theabyss:frost_world"
+			}]
+		}
+		{
+			x: 35.5d
+			y: 27.5d
+			dependencies: ["441C6374AACE8719"]
+			id: "46D3C8487CE30382"
+			tasks: [
+				{
+					id: "15FB42B53D1B642B"
+					type: "kill"
+					entity: "theabyss:ice_knight"
+					value: 10L
+				}
+				{
+					id: "14CB2B3CA8B6FEA3"
+					type: "kill"
+					entity: "theabyss:ice_skeleton"
+					value: 10L
+				}
+			]
+		}
+		{
+			x: 37.0d
+			y: 26.0d
+			dependencies: ["46D3C8487CE30382"]
+			id: "7BD701D4EF78BAD5"
+			tasks: [{
+				id: "522928133DD0A53F"
+				type: "item"
+				item: "theabyss:bricked_knight_ingot"
+			}]
+		}
+		{
+			x: 38.5d
+			y: 26.0d
+			dependencies: ["7BD701D4EF78BAD5"]
+			id: "19FDE15228AD075F"
+			tasks: [{
+				id: "5E5D70DD73E30147"
+				type: "item"
+				item: "theabyss:knight_ingot"
+			}]
+		}
+		{
+			x: 37.0d
+			y: 24.5d
+			dependencies: ["7BD701D4EF78BAD5"]
+			id: "100C7A309F00725D"
+			tasks: [{
+				id: "5EBF105A2976F8DB"
+				type: "item"
+				item: {
+					id: "theabyss:knight_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 38.5d
+			y: 24.5d
+			dependencies: ["19FDE15228AD075F"]
+			id: "3BA877C196C5995C"
+			tasks: [{
+				id: "3E34A61CC2CA0F03"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_seeker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 37.0d
+			y: 27.5d
+			dependencies: ["46D3C8487CE30382"]
+			id: "0846ED62996F2C9B"
+			tasks: [{
+				id: "61AF773F24BA81D8"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_fangs"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 37.0d
+			y: 29.0d
+			dependencies: ["441C6374AACE8719"]
+			id: "1A3D4C960B4CF8C5"
+			tasks: [{
+				id: "4FC57A083053F96C"
+				type: "item"
+				item: {
+					id: "theabyss:shuriken"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 38.5d
+			y: 29.0d
+			dependencies: ["1A3D4C960B4CF8C5"]
+			id: "03DA150F8F6A747D"
+			tasks: [{
+				id: "41349E74A89C9A69"
+				type: "item"
+				item: {
+					id: "theabyss:shuriken_explosive"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 35.5d
+			y: 26.0d
+			dependencies: ["46D3C8487CE30382"]
+			id: "2B2AC4D8AF306DED"
+			tasks: [{
+				id: "283EF96F9F3CB05C"
+				type: "item"
+				item: {
+					id: "theabyss:bone_sword_item"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 37.5d
+			dependencies: ["4FAEFD57BB345AE9"]
+			id: "43077E0E4FCD84A2"
+			tasks: [
+				{
+					id: "210BF2E67EC543B2"
+					type: "item"
+					item: "ars_nouveau:glyph_blink"
+				}
+				{
+					id: "49C8C81B9DD94EE1"
+					type: "item"
+					item: "ars_nouveau:glyph_strength"
+				}
+			]
+		}
+		{
+			x: 21.5d
+			y: 25.0d
+			description: ["火焰艺术！"]
+			dependencies: ["18A00A3D48F810FE"]
+			id: "2C21576523E0E064"
+			tasks: [{
+				id: "38E3526C48F4C857"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 34.5d
+			description: ["书是人类进步的阶梯"]
+			dependencies: ["7C59CABA429B9DD8"]
+			id: "7356A728A0B16AB3"
+			tasks: [{
+				id: "7EB56FD501968A26"
+				type: "item"
+				item: "minecraft:book"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 34.5d
+			description: ["力量！力量！力量！"]
+			dependencies: ["7356A728A0B16AB3"]
+			id: "63F0DA4EF2FB0EF6"
+			tasks: [{
+				id: "2495E21A9F55C2FC"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 36.0d
+			dependencies: ["63F0DA4EF2FB0EF6"]
+			id: "385B38837CD2DCF9"
+			tasks: [{
+				id: "7701FFC3C81EDC19"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 37.5d
+			dependencies: ["385B38837CD2DCF9"]
+			id: "64549C2238CB733A"
+			tasks: [{
+				id: "263DA5AA5B71D1F3"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 25.0d
+			description: ["必经之路"]
+			dependencies: ["2C21576523E0E064"]
+			id: "2EF615018EEAEA8B"
+			tasks: [{
+				id: "7D919511265D58B1"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+		}
+		{
+			title: "熟悉的味道"
+			x: 25.5d
+			y: 25.0d
+			dependencies: [
+				"2EF615018EEAEA8B"
+				"1A76E7A3DF652A25"
+			]
+			id: "60B01C91C196F2C9"
+			tasks: [{
+				id: "05EFFF9EC156054B"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 23.5d
+			dependencies: ["60B01C91C196F2C9"]
+			id: "718794DC834F6798"
+			tasks: [{
+				id: "16AC7D5306243DA4"
+				type: "kill"
+				entity: "the_arcaneum:galvanic_juggernaut"
+				value: 5L
+			}]
+		}
+		{
+			x: 27.5d
+			y: 23.5d
+			dependencies: ["718794DC834F6798"]
+			id: "11DE43DB15F8604C"
+			tasks: [{
+				id: "5D31B7D72A62F128"
+				type: "item"
+				item: {
+					id: "the_arcaneum:galvanic_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 34.5d
+			description: ["宝石凝聚器"]
+			dependencies: ["63F0DA4EF2FB0EF6"]
+			id: "6663D4F8670222A2"
+			tasks: [{
+				id: "63298381EA34252E"
+				type: "item"
+				item: "ars_nouveau:crystallizer"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 31.5d
+			description: [
+				"不建议早期投入大量精力"
+				"早期获取魔源宝石机器"
+				"PS:中期也是"
+			]
+			dependencies: [
+				"6663D4F8670222A2"
+				"59F385B8BC369CA5"
+			]
+			id: "5B368082F7986425"
+			tasks: [
+				{
+					id: "77EBCD551479E052"
+					type: "item"
+					item: "ars_nouveau:mana_condenser"
+				}
+				{
+					id: "5B458E02C5ABF6FD"
+					type: "item"
+					item: "ars_nouveau:mana_jar"
+				}
+				{
+					id: "66B728972F47DF0E"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "760545D6971FA04A"
+					type: "item"
+					item: "storagedrawers:oak_full_drawers_1"
+				}
+			]
+			rewards: [{
+				id: "3767F8287053788D"
+				type: "item"
+				item: {
+					id: "rankine:steel_gold_pan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 27.5d
+			y: 37.5d
+			dependencies: [
+				"3A877B4B726760FE"
+				"6C3C93034FD31F1C"
+			]
+			id: "5C2930B346B6AB4A"
+			tasks: [{
+				id: "65B7A5B64AA5F32B"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 37.5d
+			dependencies: ["5C2930B346B6AB4A"]
+			id: "39F8249A0BAED791"
+			tasks: [
+				{
+					id: "2489C569D293DE1C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48B6E6489CC2AB63"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E2AABC6FE7F102A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69B8512C3A7C6320"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 27.5d
+			y: 25.0d
+			description: ["来点薄荷糖吧！"]
+			dependencies: ["60B01C91C196F2C9"]
+			id: "59AD853700645A80"
+			tasks: [
+				{
+					id: "282E520DF45A7162"
+					type: "advancement"
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+				}
+				{
+					id: "45623CA57A6D5337"
+					type: "advancement"
+					advancement: "minecraft:end/dragon_breath"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: 27.5d
+			y: 27.5d
+			dependencies: ["59AD853700645A80"]
+			id: "6C3C93034FD31F1C"
+			tasks: [{
+				id: "250D4098BE9827C9"
+				type: "advancement"
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+			}]
+		}
+		{
+			x: 17.0d
+			y: 36.0d
+			dependencies: ["40308EBB1A2228A8"]
+			id: "131B57277A08D1D4"
+			tasks: [
+				{
+					id: "6CF42BD06022E840"
+					type: "item"
+					item: "ars_nouveau:scribes_table"
+				}
+				{
+					id: "445D26FF3C5B706D"
+					type: "item"
+					item: "ars_nouveau:spell_parchment"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 34.0d
+			dependencies: ["5AC513C864202F06"]
+			id: "4750E0E1E76FFBAB"
+			tasks: [{
+				id: "253430BD7475ED57"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_bow"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 32.5d
+			dependencies: ["5AC513C864202F06"]
+			id: "1B85255BEF9BCB13"
+			tasks: [{
+				id: "30AA06545634A624"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 32.5d
+			dependencies: ["5AC513C864202F06"]
+			id: "1FF64FBF8DCADF8B"
+			tasks: [{
+				id: "5F270FE6BC574401"
+				type: "item"
+				item: "ars_nouveau:enchanters_mirror"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 31.5d
+			dependencies: ["641F1EE9A845D91A"]
+			id: "7C56337924B2E066"
+			tasks: [{
+				id: "5C4FAC5798133725"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 17.5d
+			dependencies: ["1A2A1DF0DFA052ED"]
+			id: "3A9B79A73410CAB8"
+			tasks: [
+				{
+					id: "764F9BBF61EB2D20"
+					type: "item"
+					item: "refinedstorage:construction_core"
+				}
+				{
+					id: "6629272C17D64E85"
+					type: "item"
+					item: "refinedstorage:destruction_core"
+				}
+				{
+					id: "1BF3D26C6444A335"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+				}
+			]
+		}
+		{
+			x: 24.0d
+			y: 39.0d
+			dependencies: ["0779B5E73E0DACE6"]
+			id: "784BCCE2DB2F1E6A"
+			tasks: [{
+				id: "5009CDCD6E247C1B"
+				type: "item"
+				item: "ars_nouveau:summon_focus"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 37.5d
+			dependencies: ["3A877B4B726760FE"]
+			id: "75635722732DC807"
+			tasks: [{
+				id: "0035DE720474BED6"
+				type: "item"
+				item: "ars_nouveau:potion_flask"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 39.0d
+			dependencies: ["40172E440D895FF4"]
+			id: "4643023CC7E1418E"
+			tasks: [{
+				id: "635B95043EB096ED"
+				type: "item"
+				item: "ars_nouveau:potion_jar"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 40.5d
+			dependencies: ["4643023CC7E1418E"]
+			id: "564ED3D7E55B2C6D"
+			tasks: [{
+				id: "725DD071F9EF27D7"
+				type: "item"
+				item: "ars_nouveau:potion_melder"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 39.0d
+			dependencies: ["75635722732DC807"]
+			id: "5DF761836FCD7F5A"
+			tasks: [
+				{
+					id: "5CC6E78B270AD64E"
+					type: "item"
+					item: "ars_nouveau:potion_flask_extend_time"
+				}
+				{
+					id: "184B2B87371D8047"
+					type: "item"
+					item: "ars_nouveau:potion_flask_amplify"
+				}
+			]
+		}
+		{
+			x: 24.0d
+			y: 37.5d
+			dependencies: ["39F8249A0BAED791"]
+			id: "0779B5E73E0DACE6"
+			tasks: [{
+				id: "5875A884FD2642A2"
+				type: "item"
+				item: "ars_nouveau:wilden_tribute"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 39.0d
+			dependencies: ["784BCCE2DB2F1E6A"]
+			id: "1C51529FB12C9D24"
+			tasks: [{
+				id: "4098EF716C317E54"
+				type: "item"
+				item: "ars_elemental:fire_focus"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 39.0d
+			dependencies: ["784BCCE2DB2F1E6A"]
+			id: "774B9C09A4780F1F"
+			tasks: [{
+				id: "06378D779C4FFAA8"
+				type: "item"
+				item: "ars_elemental:water_focus"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 40.5d
+			dependencies: ["784BCCE2DB2F1E6A"]
+			id: "134569FC9B8FFC5D"
+			tasks: [{
+				id: "30EA3D334D2E1601"
+				type: "item"
+				item: "ars_elemental:earth_focus"
+			}]
+		}
+		{
+			x: 24.0d
+			y: 40.5d
+			dependencies: ["784BCCE2DB2F1E6A"]
+			id: "105665B35940B251"
+			tasks: [{
+				id: "77107DE9A7EE773A"
+				type: "item"
+				item: "ars_elemental:air_focus"
+			}]
+		}
+		{
+			x: 25.5d
+			y: 40.5d
+			dependencies: ["784BCCE2DB2F1E6A"]
+			id: "49F73C54CBAE6D3F"
+			tasks: [{
+				id: "68B05FDCF8531F99"
+				type: "item"
+				item: "ars_elemental:necrotic_focus"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 23.5d
+			dependencies: ["0BA003C441001DA8"]
+			id: "18A00A3D48F810FE"
+			tasks: [
+				{
+					id: "46CC1654219512F6"
+					type: "item"
+					item: "minecraft:enchanting_table"
+				}
+				{
+					id: "60C5D1D4FB3D71DA"
+					type: "item"
+					item: "minecraft:bookshelf"
+					count: 12L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 23.5d
+			description: ["万物的开始，火种科技！"]
+			dependencies: ["51164C4A85541753"]
+			id: "4F42D119A8E2593D"
+			tasks: [{
+				id: "10EDB2874B81756B"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 23.5d
+			dependencies: ["4F42D119A8E2593D"]
+			id: "606D1092061DA009"
+			tasks: [{
+				id: "07F4E79321939828"
+				type: "item"
+				item: {
+					id: "rankine:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 23.5d
+			description: [
+				"用燧石刀右键草方块"
+				"用小刀破坏树叶可以获得木棍"
+			]
+			dependencies: ["606D1092061DA009"]
+			id: "71A922B380280430"
+			tasks: [{
+				id: "111EFF0B73E52E08"
+				type: "item"
+				item: "rankine:plant_fiber"
+			}]
+			rewards: [
+				{
+					id: "6C76D0A6946AC11F"
+					type: "item"
+					item: "rankine:rope"
+					count: 6
+				}
+				{
+					id: "1A5739F02BAD72B8"
+					type: "item"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "4C4C81BE5109F58C"
+					type: "item"
+					item: "minecraft:apple"
+					count: 12
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 23.5d
+			description: ["这是最基础的工具，但也是最不耐用的"]
+			dependencies: ["71A922B380280430"]
+			id: "49E67910DD3C120A"
+			tasks: [
+				{
+					id: "7B3C72BBF35BB72D"
+					type: "item"
+					item: {
+						id: "rankine:flint_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13341407DC4FA9F9"
+					type: "item"
+					item: {
+						id: "rankine:flint_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "15A2018F66ED45FF"
+					type: "item"
+					item: "minecraft:torch"
+					count: 32
+				}
+				{
+					id: "46BFDAEBF9EFF070"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 22.0d
+			description: [
+				"游戏内最有用的生产力工具！"
+				"可以左键敲碎矿石，方块获得你想要的"
+				"（用地上的石块合成圆石）"
+			]
+			dependencies: ["49E67910DD3C120A"]
+			id: "5D8B23B20BB00021"
+			tasks: [{
+				id: "1C73B49D38F6F6B3"
+				type: "item"
+				item: {
+					id: "rankine:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "36DF2756A0758CA4"
+					type: "item"
+					item: "rankine:fire_clay_ball"
+					count: 24
+				}
+				{
+					id: "08CAA4559932AF07"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2C9E1CE0EF26C94F"
+					type: "item"
+					item: "minecraft:torch"
+					count: 12
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 25.0d
+			description: [
+				"在矿洞里生成"
+				"矿洞非常危险，请随手插火把"
+			]
+			dependencies: [
+				"49E67910DD3C120A"
+				"5D8B23B20BB00021"
+			]
+			id: "42D2EF0939321517"
+			tasks: [{
+				id: "72AD6D64FE1E7B05"
+				type: "item"
+				item: "rankine:native_tin_ore"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 25.0d
+			dependencies: ["42D2EF0939321517"]
+			id: "093AB4CA0187D80F"
+			tasks: [{
+				id: "719B6177D6E54C4E"
+				type: "item"
+				item: "rankine:tin_sheetmetal"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 25.0d
+			description: ["准备点火"]
+			dependencies: [
+				"093AB4CA0187D80F"
+				"5D8B23B20BB00021"
+			]
+			dependency_requirement: "one_completed"
+			id: "5B15A1D353FC84E4"
+			tasks: [
+				{
+					id: "2F304735947630F2"
+					type: "item"
+					item: "rankine:refractory_bricks"
+					count: 6L
+				}
+				{
+					id: "6E36820E0B1A20FF"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 25.0d
+			description: [
+				"简易合金炉"
+				"使用燃料催动，当原料以一定比例混合放入，就会自动开始生产合金"
+			]
+			dependencies: ["5B15A1D353FC84E4"]
+			dependency_requirement: "one_completed"
+			id: "76E3D030DF609C86"
+			tasks: [{
+				id: "24E4BF54FE461031"
+				type: "item"
+				item: "rankine:alloy_furnace"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 22.0d
+			description: ["点起炉灶"]
+			dependencies: ["5B15A1D353FC84E4"]
+			dependency_requirement: "one_started"
+			id: "3236A3D01E0E80BA"
+			tasks: [{
+				id: "6CEF0E002DDF83AD"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "1D8BA8BBF9006404"
+				type: "item"
+				item: {
+					id: "minecraft:water_bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 23.5d
+			description: ["混合桶（早期生产力机器）"]
+			dependencies: ["711954C5CFCF2972"]
+			id: "6CFA8D011B384CCA"
+			tasks: [
+				{
+					id: "46F63EC10B4E287A"
+					type: "item"
+					item: "rankine:mixing_barrel"
+				}
+				{
+					id: "7575C85801FFD0E3"
+					type: "item"
+					item: "rankine:dolostone"
+					count: 3L
+				}
+				{
+					id: "4B7E70CF614D1775"
+					type: "item"
+					item: "minecraft:sand"
+					count: 3L
+				}
+				{
+					id: "3E783450791160A0"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 3L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 23.5d
+			description: [
+				"你一定很缺燃料吧？让我们来烧点木炭灰"
+				"(查阅模组指导书，搭建多方块结构）"
+			]
+			dependencies: ["76E3D030DF609C86"]
+			id: "5AF38E47544F0177"
+			tasks: [
+				{
+					id: "67C0E3371432DBA7"
+					type: "item"
+					item: "rankine:charcoal_pit"
+				}
+				{
+					id: "1F98FC25996F5B8B"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 27L
+				}
+				{
+					id: "473C3262BEAADA56"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 8L
+				}
+				{
+					id: "788207FC6C14766A"
+					type: "item"
+					item: "minecraft:flint"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "47FDAC97193F3D3C"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B45FB1BA6DC348A"
+					type: "item"
+					item: "rankine:charred_wood"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 23.5d
+			description: [
+				"核心金属"
+				"别问我为啥送这么多辉锑矿"
+				"问就是模组bug原因"
+				"qwq"
+			]
+			dependencies: ["5AF38E47544F0177"]
+			id: "259DB4943B8E57F9"
+			tasks: [{
+				id: "747AEDCCD10F7ABD"
+				type: "item"
+				item: "rankine:tin_ingot"
+			}]
+			rewards: [{
+				id: "4FBFBD1840EC80A7"
+				type: "item"
+				item: "rankine:stibnite"
+				count: 64
+			}]
+		}
+		{
+			x: 6.5d
+			y: 23.5d
+			description: [
+				"迈向第二挖掘等级！"
+				"的第一步"
+			]
+			dependencies: ["259DB4943B8E57F9"]
+			id: "083A4BC8FF05D810"
+			tasks: [{
+				id: "49C2D025E053440F"
+				type: "item"
+				item: "rankine:pewter_ingot"
+			}]
+			rewards: [
+				{
+					id: "0D4F54957F985443"
+					type: "item"
+					item: {
+						id: "rankine:pewter_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "464454A7015C8550"
+					type: "item"
+					item: "minecraft:torch"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 23.5d
+			dependencies: ["083A4BC8FF05D810"]
+			id: "711954C5CFCF2972"
+			tasks: [{
+				id: "7C5026B722F1A713"
+				type: "item"
+				item: {
+					id: "rankine:pewter_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7989C79D0612A12A"
+				type: "item"
+				item: "rankine:fire_clay_ball"
+				count: 80
+			}]
+		}
+		{
+			x: 8.0d
+			y: 22.0d
+			dependencies: ["711954C5CFCF2972"]
+			id: "0B3B79760D8D9035"
+			tasks: [
+				{
+					id: "1B14C01FAFD1D51E"
+					type: "item"
+					item: "rankine:beehive_oven_pit"
+				}
+				{
+					id: "596646B9445D1CBD"
+					type: "item"
+					item: "rankine:refractory_bricks"
+					count: 8L
+				}
+				{
+					id: "5D33319C707CFAC1"
+					type: "item"
+					item: "rankine:refractory_bricks"
+					count: 40L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 20.5d
+			description: ["更快的熔炉"]
+			dependencies: ["3236A3D01E0E80BA"]
+			id: "6DE9842297C9815E"
+			tasks: [{
+				id: "3CBA6292846C1949"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 28.0d
+			description: ["恭喜你进入了阶段1"]
+			dependencies: ["76E3D030DF609C86"]
+			id: "51AE3AC374254178"
+			tasks: [{
+				id: "61136A73349C9E1D"
+				type: "checkmark"
+				title: "阶段1 "
+			}]
+			rewards: [{
+				id: "0B2F29AAF23EF01C"
+				type: "random"
+				table_id: 1665979032366424178L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 26.5d
+			dependencies: ["51AE3AC374254178"]
+			id: "03CAA95F22F8BF98"
+			tasks: [{
+				id: "643ABD9F87BABF7F"
+				type: "item"
+				item: {
+					id: "rankine:sandals"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 26.5d
+			dependencies: ["51AE3AC374254178"]
+			id: "21051C0C07EA40D1"
+			tasks: [{
+				id: "5C1F736F7897D086"
+				type: "item"
+				item: {
+					id: "rankine:ice_skates"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 28.0d
+			dependencies: ["51AE3AC374254178"]
+			id: "4666EE8BBBA04A3D"
+			tasks: [{
+				id: "11FCD6D595E7C6DB"
+				type: "item"
+				item: {
+					id: "rankine:fins"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 28.0d
+			dependencies: ["51AE3AC374254178"]
+			id: "1B6451BEC04BBADD"
+			tasks: [{
+				id: "2581C0BE0B4B5CE9"
+				type: "item"
+				item: {
+					id: "rankine:snowshoes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 29.5d
+			dependencies: ["51AE3AC374254178"]
+			id: "64732203BC36B6AB"
+			tasks: [{
+				id: "32BF0CEB15F83315"
+				type: "item"
+				item: {
+					id: "rankine:goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 29.5d
+			dependencies: ["51AE3AC374254178"]
+			id: "4823BCAC969D6357"
+			tasks: [{
+				id: "53D3D1D24324ED3A"
+				type: "item"
+				item: {
+					id: "rankine:gas_mask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 31.5d
+			description: ["耕种时间到"]
+			dependencies: ["51AE3AC374254178"]
+			id: "6A84B059DAD8E82F"
+			tasks: [{
+				id: "146B8E7881ADB485"
+				type: "item"
+				item: {
+					id: "rankine:flint_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "16493CAD904B0EE9"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 2
+				}
+				{
+					id: "044DF0B792CA6EFD"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 28.0d
+			dependencies: ["51AE3AC374254178"]
+			id: "0317305BD5B19A4D"
+			tasks: [{
+				id: "1BA44FAB6738D4F3"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70DB6F974FAC2969"
+					type: "item"
+					item: {
+						id: "supplementaries:rope_arrow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33005DE1ED4EC951"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 128
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 20.5d
+			description: ["在某些高度下（Y轴高度）无限水机制会失效"]
+			dependencies: ["0B3B79760D8D9035"]
+			id: "536EC14BAB944892"
+			tasks: [
+				{
+					id: "70A7F90F346A8B9F"
+					type: "item"
+					item: "rankine:ground_tap"
+				}
+				{
+					id: "0B2D1413476B292A"
+					type: "item"
+					item: "rankine:dowsing_rod"
+				}
+			]
+			rewards: [{
+				id: "200ABC1EC6A73C45"
+				type: "item"
+				item: {
+					id: "minecraft:bucket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 22.0d
+			description: ["可以帮助你寻找矿脉"]
+			dependencies: ["5D8B23B20BB00021"]
+			id: "646AB8827A9B18ED"
+			tasks: [
+				{
+					id: "0BE1E38C072A0A4C"
+					type: "item"
+					item: "rankine:hardness_tester"
+				}
+				{
+					id: "588AD4A63A180F8E"
+					type: "item"
+					item: {
+						id: "rankine:prospecting_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "610274636C22D3A6"
+				type: "item"
+				item: "rankine:mortar"
+				count: 12
+			}]
+		}
+		{
+			x: 9.5d
+			y: 22.0d
+			description: [
+				"中期重要生产力机器，坩埚！"
+				"（找不到耐火粘土？去做阶段一魔法路线）"
+			]
+			dependencies: [
+				"0B3B79760D8D9035"
+				"6CFA8D011B384CCA"
+			]
+			id: "01AAE70DD50DF8D4"
+			tasks: [{
+				id: "2FCBE57765CED801"
+				type: "item"
+				item: "rankine:crucible"
+			}]
+			rewards: [
+				{
+					id: "37D71E01BD7C6D94"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "cold_sweat:ice_resistance"
+						}
+					}
+				}
+				{
+					id: "1883846DED193998"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "cold_sweat:ice_resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 23.5d
+			description: ["大炼钢！"]
+			dependencies: ["6EC89AAA128E57AB"]
+			id: "6B2706AB3A82AFCC"
+			tasks: [{
+				id: "4C0977DE7A975106"
+				type: "item"
+				item: "rankine:steel_ingot"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 23.5d
+			dependencies: ["6B2706AB3A82AFCC"]
+			id: "42867B00000D8072"
+			tasks: [
+				{
+					id: "6AA401F4EA2F449C"
+					type: "item"
+					item: {
+						id: "rankine:steel_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B39FE72A8B92EC7"
+					type: "item"
+					item: {
+						id: "rankine:steel_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 22.0d
+			description: ["进入阶段2"]
+			dependencies: ["01AAE70DD50DF8D4"]
+			id: "37A3F4B935C812C1"
+			tasks: [{
+				id: "3C210851B5E6B05B"
+				type: "checkmark"
+				title: "接入通讯系统！"
+			}]
+			rewards: [
+				{
+					id: "21881A8F99E0E312"
+					type: "random"
+					table_id: 489919795494872328L
+				}
+				{
+					id: "6D71CF6DDCADA453"
+					type: "random"
+					table_id: 8784844867197868818L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 23.5d
+			description: ["终于，我们要..."]
+			dependencies: ["42867B00000D8072"]
+			id: "0DDD0DCD138A4A15"
+			tasks: [{
+				id: "3F55C982950C3E92"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10L
+			}]
+			rewards: [{
+				id: "3AEE4BF5EFE59419"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Deep"
+			x: 17.0d
+			y: 23.5d
+			description: ["更深一步！"]
+			dependencies: ["0DDD0DCD138A4A15"]
+			id: "23AC452D3C4FADA3"
+			tasks: [{
+				id: "3FFB8936DA9D2B5C"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 22.0d
+			description: ["别客气，往里塞就行"]
+			dependencies: ["76E3D030DF609C86"]
+			id: "5D6E7E67DF972AD2"
+			tasks: [{
+				id: "2B02382F1CA60D25"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_4"
+			}]
+			rewards: [{
+				id: "53159F6E770F8E36"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 20.5d
+			dependencies: ["5D6E7E67DF972AD2"]
+			id: "11B822F2FC045FB2"
+			tasks: [{
+				id: "06764410C9D303CE"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 25.0d
+			description: ["中期重要生产力机器--蒸发塔"]
+			dependencies: ["23AC452D3C4FADA3"]
+			id: "4EA8CF9FE1615A76"
+			tasks: [
+				{
+					id: "5D22046281AB1FF4"
+					type: "item"
+					item: "rankine:evaporation_tower"
+				}
+				{
+					id: "479538CB30E51BE8"
+					type: "item"
+					item: "rankine:tin_sheetmetal"
+					count: 16L
+				}
+				{
+					id: "3B6113AA7914D128"
+					type: "item"
+					item: "minecraft:magma_block"
+					count: 20L
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: 26.5d
+			dependencies: ["4EA8CF9FE1615A76"]
+			id: "17C866516F627429"
+			tasks: [{
+				id: "1DD07B508EAE31F7"
+				type: "checkmark"
+				title: "阶段3"
+			}]
+			rewards: [
+				{
+					id: "7C626017AA362596"
+					type: "item"
+					item: "nefdecomod:banana"
+				}
+				{
+					id: "2F95CC612D545D2C"
+					type: "item"
+					item: "supplementaries:sconce"
+					count: 32
+				}
+				{
+					id: "2A34E46C35F344C9"
+					type: "random"
+					table_id: 1291177147218470362L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 22.0d
+			description: ["中期生产力机器--电炉"]
+			dependencies: ["42867B00000D8072"]
+			id: "015F34A211D50106"
+			tasks: [
+				{
+					id: "738F27D7A764D93C"
+					type: "item"
+					item: "rankine:fusion_furnace"
+				}
+				{
+					id: "1D8B744BEB44BF88"
+					type: "item"
+					item: {
+						id: "rankine:silver_zinc_battery"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 20.5d
+			description: ["中期重要生产力机器---气体仓"]
+			dependencies: ["015F34A211D50106"]
+			id: "4FE929296E94501F"
+			tasks: [
+				{
+					id: "40032FC13026A331"
+					type: "item"
+					item: "rankine:gas_vent"
+				}
+				{
+					id: "1CEDBA4AEE14B4DC"
+					type: "item"
+					item: "rankine:gas_bottler"
+				}
+				{
+					id: "6DD4AF6E29EB147C"
+					type: "item"
+					item: "rankine:distillation_tower"
+				}
+				{
+					id: "1052BBAF1552FB3D"
+					type: "item"
+					item: "rankine:tin_sheetmetal"
+					count: 36L
+				}
+				{
+					id: "55529EA6D132476C"
+					type: "item"
+					item: "rankine:tin_sheetmetal"
+					count: 51L
+				}
+				{
+					id: "3DAA815CFCCB0187"
+					type: "item"
+					item: "rankine:air_distillation_packing"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "171F1FC3DDAA4D10"
+				type: "item"
+				item: "minecraft:blue_ice"
+				count: 24
+			}]
+		}
+		{
+			x: 14.0d
+			y: 25.0d
+			description: ["将龙头放到胶...木（我实在不会写这个字，我直接把这个树苗送给你吧）"]
+			dependencies: ["42867B00000D8072"]
+			id: "2E6BDE531113F1EB"
+			tasks: [
+				{
+					id: "112531D9371E00C8"
+					type: "item"
+					item: "rankine:tree_tap"
+				}
+				{
+					id: "2B484359F86C512D"
+					type: "item"
+					item: "rankine:tap_line"
+				}
+			]
+			rewards: [{
+				id: "3D5F1CFAC9A76A6D"
+				type: "item"
+				item: "rankine:balsam_fir_sapling"
+			}]
+		}
+		{
+			x: 23.5d
+			y: 23.5d
+			description: [
+				"末影文化已经潜伏在各大领域"
+				"末影之眼也沾染了许多不同的属性"
+				"（集齐12种不同的末影之眼）"
+			]
+			dependencies: ["2EF615018EEAEA8B"]
+			id: "1A76E7A3DF652A25"
+			tasks: [{
+				id: "53F0CCF4E56F49AE"
+				type: "checkmark"
+				title: "很抱歉我骗了你"
+			}]
+			rewards: [{
+				id: "1AE60161C1BFBCAD"
+				type: "item"
+				item: "rankine:cake_slice"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 22.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "5B0ABE338F7284CD"
+			tasks: [{
+				id: "644FEB2037810308"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 21.5d
+			y: 21.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "5618B5CAA80E37E0"
+			tasks: [{
+				id: "1DEDAA94E7A62812"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 21.5d
+			y: 20.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "421675E9E05E91C6"
+			tasks: [{
+				id: "7F13AA6F050AE694"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.5d
+			y: 21.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "7C48033594C31C7E"
+			tasks: [{
+				id: "0A3DECAB3599CE67"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: 22.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "6BCA0BFE120D4EB2"
+			tasks: [{
+				id: "72687EF597B46CB3"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.5d
+			y: 22.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "36302E0CC4C6BA31"
+			tasks: [{
+				id: "6C7365A998D2B1E1"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.5d
+			y: 22.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "6E1E183ECF1B36E0"
+			tasks: [{
+				id: "17E1228A04D59639"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.5d
+			y: 21.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "678B20ACD8197DF3"
+			tasks: [{
+				id: "78B69640B9CFB5CF"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 25.5d
+			y: 20.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "00AFD9D967C95644"
+			tasks: [{
+				id: "7321A88044BC65FF"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 25.5d
+			y: 21.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "7DFDD55C14F3301D"
+			tasks: [{
+				id: "24E49F36E7473994"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 25.5d
+			y: 22.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "6720A7E5D89CAB31"
+			tasks: [{
+				id: "3334B40C3E151AAF"
+				type: "item"
+				item: {
+					id: "endrem:end_crystal_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: 21.0d
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "274E66ABE1708153"
+			tasks: [{
+				id: "388BB86CB613A9BC"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 31.0d
+			y: 27.5d
+			dependencies: ["6C3C93034FD31F1C"]
+			id: "2BFE455A0FE8E997"
+			tasks: [{
+				id: "001AD8ED8E818DAE"
+				type: "checkmark"
+				title: "阶段4"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 23.5d
+			description: [
+				"在花岗岩中寻找锡石！"
+				"在地下看到花岗岩可以直接用连锁挖掉，里面会有许多锡石存在"
+			]
+			dependencies: ["01AAE70DD50DF8D4"]
+			id: "6EC89AAA128E57AB"
+			tasks: [{
+				id: "0BA038DD32D07693"
+				type: "item"
+				item: {
+					id: "rankine:bronze_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2DFD1DD7A670B62C"
+				type: "item"
+				item: "rankine:cassiterite_ore"
+				count: 24
+			}]
+		}
+		{
+			x: 11.0d
+			y: 17.5d
+			description: ["图书管理员是猫党，听说她有一本正在编纂的猫咪手册"]
+			dependencies: ["6A27F41B6A49305B"]
+			id: "127CC9CDC6B0D8C6"
+			tasks: [{
+				id: "0AAAF529D157FC11"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "nekoration:neko_brochure"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2AF4F6D000F985CB"
+				type: "random"
+				table_id: 6515510210587508228L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 19.0d
+			dependencies: [
+				"536EC14BAB944892"
+				"33A966373356C75B"
+			]
+			id: "1C082759D5C094A7"
+			tasks: [{
+				id: "1884A1E4A5399D11"
+				type: "item"
+				item: "mcwbridges:oak_log_bridge_middle"
+				count: 24L
+			}]
+			rewards: [
+				{
+					id: "6C1A4DD28A8B484C"
+					type: "random"
+					table_id: 8223677760680305777L
+				}
+				{
+					id: "0CDBD95488F41F2A"
+					type: "item"
+					item: "mcwbridges:pliers"
+				}
+			]
+		}
+		{
+			x: 23.5d
+			y: 20.0d
+			description: [
+				"这里是末影文明在主世界的城堡"
+				"里面埋藏了一个鲜为人知的秘密"
+			]
+			dependencies: ["1A76E7A3DF652A25"]
+			id: "34A6CA606DAD3734"
+			tasks: [{
+				id: "66086D7D2C43C985"
+				type: "structure"
+				title: "末影城"
+				structure: "endrem:end_castle"
+			}]
+			rewards: [{
+				id: "0B4E94974A3FE729"
+				type: "random"
+				table_id: 1291177147218470362L
+			}]
+		}
+	]
+}

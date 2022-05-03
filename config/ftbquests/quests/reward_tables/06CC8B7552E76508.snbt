@@ -1,0 +1,10 @@
+{
+	id: "06CC8B7552E76508"
+	order_index: 0
+	title: "通信系统"
+	loot_size: 1
+	rewards: [
+		{ item: "contact:red_postbox" }
+		{ item: "contact:green_postbox" }
+	]
+}

@@ -1,0 +1,62 @@
+{
+	id: "171EBF1A6B732072"
+	order_index: 2
+	title: "一阶段装备"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "rankine:goggles"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rankine:gas_mask"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rankine:snowshoes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rankine:sandals"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rankine:ice_skates"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rankine:fins"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

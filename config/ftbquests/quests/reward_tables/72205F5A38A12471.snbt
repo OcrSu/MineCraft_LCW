@@ -1,0 +1,134 @@
+{
+	id: "72205F5A38A12471"
+	order_index: 5
+	title: "果酱"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "contact:ender_parcel"
+				Count: 1b
+				tag: {
+					Size: 4
+					Items: [
+						{
+							Slot: 0
+							id: "slimy_stuff:suspicious_jam_weakness_1"
+							Count: 1b
+						}
+						{
+							Slot: 1
+							id: "slimy_stuff:suspicious_jam_night_vision_1"
+							Count: 1b
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "contact:ender_parcel"
+				Count: 1b
+				tag: {
+					Size: 4
+					Items: [
+						{
+							Slot: 0
+							id: "slimy_stuff:bottled_magma_cream"
+							Count: 1b
+						}
+						{
+							Slot: 1
+							id: "slimy_stuff:suspicious_jam_regeneration_1"
+							Count: 1b
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "contact:ender_parcel"
+				Count: 1b
+				tag: {
+					Size: 4
+					Items: [
+						{
+							Slot: 0
+							id: "slimy_stuff:suspicious_jam_poison_1"
+							Count: 1b
+						}
+						{
+							Slot: 1
+							id: "slimy_stuff:suspicious_jam_jump_boost_1"
+							Count: 1b
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "contact:ender_parcel"
+				Count: 1b
+				tag: {
+					Size: 4
+					Items: [
+						{
+							Slot: 0
+							id: "slimy_stuff:suspicious_jam_saturation_1"
+							Count: 1b
+						}
+						{
+							Slot: 1
+							id: "slimy_stuff:suspicious_jam_blindness_1"
+							Count: 1b
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "contact:ender_parcel"
+				Count: 1b
+				tag: {
+					Size: 4
+					Items: [
+						{
+							Slot: 0
+							id: "slimy_stuff:suspicious_jam_fire_resistance_1"
+							Count: 1b
+						}
+						{
+							Slot: 1
+							id: "slimy_stuff:suspicious_jam_wither_1"
+							Count: 1b
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "contact:ender_parcel"
+				Count: 1b
+				tag: {
+					Size: 4
+					Items: [
+						{
+							Slot: 0
+							id: "slimy_stuff:slime_jam"
+							Count: 1b
+						}
+						{
+							Slot: 1
+							id: "slimy_stuff:bottled_ender_gum"
+							Count: 1b
+						}
+					]
+				}
+			}
+		}
+	]
+}
