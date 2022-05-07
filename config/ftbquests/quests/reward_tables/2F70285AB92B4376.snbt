@@ -1,0 +1,91 @@
+{
+	id: "2F70285AB92B4376"
+	order_index: 6
+	title: "女仆饰品"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "touhou_little_maid:projectile_protect_bauble"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "touhou_little_maid:magic_protect_bauble"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "touhou_little_maid:fire_protect_bauble"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "touhou_little_maid:explosion_protect_bauble"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "touhou_little_maid:ultramarine_orb_elixir"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "touhou_little_maid:nimble_fabric"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "touhou_little_maid:item_magnet_bauble" }
+		{ item: "touhou_little_maid:mute_bauble" }
+		{
+			item: {
+				id: "touhou_little_maid:nimble_fabric"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "touhou_little_maid:drown_protect_bauble"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "touhou_little_maid:fall_protect_bauble"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

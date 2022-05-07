@@ -37,14 +37,14 @@
 			]
 		}
 		{
-			x: -10.5d
-			y: 20.0d
+			x: -10.0d
+			y: 18.5d
 			description: [
 				"Ctrl+L    ALT+L"
 				"使用Ctrl+L 按键打开成就追踪器"
 				"使用ALT+L关闭追踪器"
 			]
-			dependencies: ["05092F470B4A49F9"]
+			dependencies: ["0D404E9052362FCF"]
 			id: "31DE6E087A6B1080"
 			tasks: [{
 				id: "748B6FC1F363D054"
@@ -53,13 +53,13 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 21.5d
+			x: -10.0d
+			y: 19.5d
 			description: [
 				"R+C"
 				"按下R+C打开一键整理设置面板"
 			]
-			dependencies: ["05092F470B4A49F9"]
+			dependencies: ["0D404E9052362FCF"]
 			id: "5587B9A152A1CD21"
 			tasks: [{
 				id: "1B822865B0D42022"
@@ -144,7 +144,7 @@
 		{
 			title: "Cooking food"
 			x: 3.5d
-			y: 33.0d
+			y: 32.5d
 			description: ["不会吧不会吧，不会这么早就要下厨房了吧"]
 			dependencies: ["6A84B059DAD8E82F"]
 			id: "68AB4637A7995E8C"
@@ -242,7 +242,8 @@
 			y: 23.5d
 			description: [
 				"It's especially dark here at night, so take these torches"
-				"这里的夜晚很黑，收好这些火把"
+				" 这里的夜晚被神秘的黑暗笼罩"
+				"(呆在黑暗里太久会直接死亡）"
 			]
 			dependencies: ["36EC3897B44AB74F"]
 			id: "51164C4A85541753"
@@ -269,7 +270,7 @@
 		{
 			title: "Let's make paper"
 			x: 5.0d
-			y: 34.5d
+			y: 34.0d
 			description: ["让我们做起老本行"]
 			dependencies: ["6A84B059DAD8E82F"]
 			id: "7C59CABA429B9DD8"
@@ -330,6 +331,7 @@
 			title: "Better (maybe)"
 			x: 5.0d
 			y: 19.0d
+			description: ["因为它真的很慢！"]
 			dependencies: ["302B20DC4EDE872E"]
 			id: "4BCD77AFA59FE152"
 			tasks: [{
@@ -342,6 +344,7 @@
 			title: "Better (maybe)"
 			x: 3.5d
 			y: 19.0d
+			description: ["当然你要是喜欢也可以做"]
 			dependencies: ["4BCD77AFA59FE152"]
 			id: "583EF3A9902744E4"
 			tasks: [{
@@ -354,6 +357,7 @@
 			title: "Better (maybe)"
 			x: 2.0d
 			y: 19.0d
+			description: ["摆在港口上非常的有气势！"]
 			dependencies: ["583EF3A9902744E4"]
 			id: "04FDDEE6C6D7D950"
 			tasks: [{
@@ -366,6 +370,7 @@
 			title: "Better (maybe)"
 			x: 0.5d
 			y: 19.0d
+			description: ["甚至可以建造你的舰队！"]
 			dependencies: ["04FDDEE6C6D7D950"]
 			id: "7963C6C46051BBDA"
 			tasks: [{
@@ -413,7 +418,7 @@
 		{
 			title: "Using magic"
 			x: 11.0d
-			y: 31.5d
+			y: 31.0d
 			shape: "rsquare"
 			description: ["踏入魔力大门"]
 			dependencies: ["5B368082F7986425"]
@@ -440,6 +445,7 @@
 			title: "Upgrade equipment"
 			x: 20.0d
 			y: 23.5d
+			description: ["让我们变得更强吧！"]
 			dependencies: ["0365BF84219EE59A"]
 			id: "0BA003C441001DA8"
 			tasks: [{
@@ -464,7 +470,7 @@
 		{
 			title: "Making pizza"
 			x: 3.5d
-			y: 34.5d
+			y: 34.0d
 			description: [
 				"First grind the wheat in mortar and pestle."
 				"首先先将小麦放入mortar and pestle研磨"
@@ -499,7 +505,7 @@
 		{
 			title: "Making pastry"
 			x: 3.5d
-			y: 36.0d
+			y: 35.5d
 			description: [
 				"Place dough on ground and right click it with rolling pin until you get the proper shape."
 				"将面团放在地上，用擀面杖右击，直到得到适当的形状。"
@@ -548,7 +554,7 @@
 		{
 			title: "Fill with stuffing"
 			x: 3.5d
-			y: 37.5d
+			y: 37.0d
 			description: [
 				"After that, you can start adding ingredients to your pizza - by right click or by use of GUI."
 				"之后，你可以开始向你的披萨胚子里添加配料--通过右击或使用GUI。"
@@ -576,7 +582,7 @@
 		{
 			title: "Baked pizza"
 			x: 3.5d
-			y: 39.0d
+			y: 38.5d
 			description: [
 				"Place your pizza on the top of the oven, you'll notice beautiful process of pizza baking."
 				"将披萨胚子放到烤炉上方，您将会看到美丽的烟气"
@@ -740,6 +746,7 @@
 			title: "Encyclopedia of Birds"
 			x: 12.5d
 			y: 19.0d
+			description: ["鸟类百科全书"]
 			dependencies: ["6A27F41B6A49305B"]
 			id: "6C7161606C9BE484"
 			tasks: [{
@@ -757,6 +764,7 @@
 			title: "Birdcage"
 			x: 12.5d
 			y: 17.5d
+			description: ["试着养一只鸟 它可以陪伴你一生"]
 			dependencies: ["6C7161606C9BE484"]
 			id: "62CE08D4CA4E54BE"
 			tasks: [{
@@ -860,10 +868,7 @@
 			x: 11.0d
 			y: 19.0d
 			shape: "square"
-			description: [
-				"休息一下吧"
-				"aaaaaaw"
-			]
+			description: ["休息一下吧"]
 			dependencies: ["37A3F4B935C812C1"]
 			id: "6A27F41B6A49305B"
 			tasks: [{
@@ -899,7 +904,7 @@
 			title: "First time in the goblin field"
 			x: 15.5d
 			y: 26.5d
-			description: ["车万女仆！"]
+			description: ["二次元女仆awa"]
 			dependencies: ["17C866516F627429"]
 			id: "178B9BFD1D795724"
 			tasks: [
@@ -930,7 +935,7 @@
 		}
 		{
 			x: 14.0d
-			y: 26.5d
+			y: 28.0d
 			description: [
 				"Throw Power, get energy, you have up to 5 points of power"
 				"投掷P点 以获得能量，你最多可以持有5点能量"
@@ -948,10 +953,15 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6B26C34EE2E9768E"
+				type: "item"
+				item: "touhou_little_maid:smart_slab_init"
+			}]
 		}
 		{
-			x: 12.5d
-			y: 28.0d
+			x: 14.0d
+			y: 29.5d
 			description: [
 				"Follow Lectern_Books to build a multiparty fast altar"
 				"跟随“记忆中的幻想乡” 建造一个 多方块祭坛"
@@ -979,7 +989,7 @@
 			]
 		}
 		{
-			x: 12.5d
+			x: 14.0d
 			y: 26.5d
 			description: [
 				"Can store \"Power\" decorations"
@@ -1001,11 +1011,15 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "53DAFD55DBAAB67E"
+				type: "random"
+				table_id: 3418276487292994422L
+			}]
 		}
 		{
-			x: 11.0d
-			y: 28.0d
-			description: ["Bed for maids"]
+			x: 15.5d
+			y: 29.5d
 			dependencies: ["62E8D328931657D3"]
 			id: "69CC12B85BF2CD26"
 			tasks: [{
@@ -1016,7 +1030,7 @@
 		}
 		{
 			x: 14.0d
-			y: 28.0d
+			y: 31.0d
 			description: [
 				"Can capture maids (probably)"
 				"可以用相片捕捉女仆"
@@ -1049,9 +1063,9 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: 28.0d
-			description: ["Bag for maids"]
+			x: 17.0d
+			y: 29.5d
+			description: ["背起小书包，太可爱了！"]
 			dependencies: ["69CC12B85BF2CD26"]
 			id: "38B04CD5954C8A5F"
 			tasks: [{
@@ -1061,9 +1075,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 28.0d
-			description: ["One Step Ahead"]
+			x: 17.0d
+			y: 31.0d
 			dependencies: ["38B04CD5954C8A5F"]
 			id: "5932F23E15136935"
 			tasks: [{
@@ -1073,8 +1086,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 26.5d
+			x: 15.5d
+			y: 28.0d
 			dependencies: ["69CC12B85BF2CD26"]
 			id: "115A85511B615EB6"
 			tasks: [{
@@ -1085,7 +1098,7 @@
 		}
 		{
 			x: 15.5d
-			y: 28.0d
+			y: 31.0d
 			description: [
 				"Can call back your maid"
 				"自己看物品描述！！！（我可太懒了）"
@@ -1099,9 +1112,12 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 12.5d
 			y: 26.5d
-			description: ["Chairs for maids"]
+			description: [
+				"Chairs for maids"
+				" 各种各样的椅子"
+			]
 			dependencies: ["210E798B0CF438C0"]
 			id: "01BACE01313C8607"
 			tasks: [{
@@ -1123,6 +1139,7 @@
 			x: 27.5d
 			y: 19.0d
 			shape: "square"
+			description: ["踏入时光遗迹"]
 			dependencies: ["7BB78F631487493B"]
 			id: "5F1D383CA39A17D8"
 			tasks: [{
@@ -1152,6 +1169,7 @@
 		{
 			x: 33.5d
 			y: 19.0d
+			description: ["我们收集这些石头干嘛？"]
 			dependencies: ["4C0685D89D77EE6C"]
 			id: "0645F1D01F942370"
 			tasks: [{
@@ -1164,6 +1182,7 @@
 		{
 			x: 30.5d
 			y: 19.0d
+			description: ["时光宝石？穿越时空！"]
 			dependencies: ["4C0685D89D77EE6C"]
 			id: "6D269B00D76B2FE1"
 			tasks: [{
@@ -1176,6 +1195,7 @@
 		{
 			x: 33.5d
 			y: 17.5d
+			description: ["当然是为了研究神秘的时光科技！"]
 			dependencies: ["0645F1D01F942370"]
 			id: "7E772110C27EB7F1"
 			tasks: [{
@@ -1187,6 +1207,7 @@
 		{
 			x: 32.0d
 			y: 17.5d
+			description: ["图腾是一个时代的灵物"]
 			dependencies: ["6D269B00D76B2FE1"]
 			id: "74A8B5F620C3ED81"
 			tasks: [{
@@ -1204,6 +1225,7 @@
 		{
 			x: 30.5d
 			y: 17.5d
+			description: ["图腾是一个时代的灵物"]
 			dependencies: ["6D269B00D76B2FE1"]
 			id: "12EFB4F2162914CF"
 			tasks: [{
@@ -1221,6 +1243,7 @@
 		{
 			x: 29.0d
 			y: 17.5d
+			description: ["图腾是一个时代的灵物"]
 			dependencies: ["6D269B00D76B2FE1"]
 			id: "5C41A93780BC9688"
 			tasks: [{
@@ -1609,7 +1632,7 @@
 		}
 		{
 			x: 2.0d
-			y: 36.0d
+			y: 35.5d
 			dependencies: ["4A46AD578293B084"]
 			id: "51A94CE41CEDDE7A"
 			tasks: [{
@@ -1626,7 +1649,7 @@
 		}
 		{
 			x: 2.0d
-			y: 33.0d
+			y: 32.5d
 			description: ["熬汤"]
 			dependencies: ["702D6028F4DC7C8F"]
 			id: "68314BE89B596714"
@@ -1645,7 +1668,7 @@
 		}
 		{
 			x: 2.0d
-			y: 34.5d
+			y: 34.0d
 			dependencies: ["68314BE89B596714"]
 			id: "4A46AD578293B084"
 			tasks: [{
@@ -1662,7 +1685,7 @@
 		}
 		{
 			x: 2.0d
-			y: 31.5d
+			y: 31.0d
 			description: ["烹饪食物更加具有风味"]
 			dependencies: ["6A84B059DAD8E82F"]
 			id: "702D6028F4DC7C8F"
@@ -1674,7 +1697,7 @@
 		}
 		{
 			x: 0.5d
-			y: 31.5d
+			y: 31.0d
 			description: ["近代烹饪工具"]
 			dependencies: ["702D6028F4DC7C8F"]
 			id: "6B465D248D4148ED"
@@ -1686,7 +1709,7 @@
 		}
 		{
 			x: 2.0d
-			y: 37.5d
+			y: 37.0d
 			description: ["检查你的指导书，制作你的汤品"]
 			dependencies: ["51A94CE41CEDDE7A"]
 			id: "59374EF8379AE2E0"
@@ -1813,7 +1836,7 @@
 		}
 		{
 			x: 11.0d
-			y: 39.0d
+			y: 38.5d
 			dependencies: ["3A877B4B726760FE"]
 			id: "52BD1DF877445EFA"
 			tasks: [
@@ -1865,7 +1888,7 @@
 		}
 		{
 			x: 11.0d
-			y: 37.5d
+			y: 37.0d
 			dependencies: ["2CE199BD6BCCAFEE"]
 			id: "3A877B4B726760FE"
 			tasks: [{
@@ -1876,7 +1899,7 @@
 		}
 		{
 			x: 5.0d
-			y: 33.0d
+			y: 32.5d
 			description: ["没有什么比南瓜派更美味了"]
 			dependencies: ["59F385B8BC369CA5"]
 			id: "6DCACDA8A95276DF"
@@ -1895,7 +1918,7 @@
 		}
 		{
 			x: 5.0d
-			y: 31.5d
+			y: 31.0d
 			description: [
 				"种田！种田！"
 				"不种田吃什么"
@@ -1930,7 +1953,7 @@
 		}
 		{
 			x: 12.5d
-			y: 34.0d
+			y: 32.5d
 			description: ["印刷工艺"]
 			dependencies: [
 				"1572D03772DF8F03"
@@ -1945,7 +1968,7 @@
 		}
 		{
 			x: 11.0d
-			y: 36.0d
+			y: 35.5d
 			description: ["织布机----（指的是你）"]
 			dependencies: ["1572D03772DF8F03"]
 			id: "2CE199BD6BCCAFEE"
@@ -1957,8 +1980,8 @@
 		}
 		{
 			x: 11.0d
-			y: 34.0d
-			description: ["没想到还是要耕种"]
+			y: 32.5d
+			description: ["没想到当了魔法师还要下地种田！"]
 			dependencies: ["641F1EE9A845D91A"]
 			id: "1572D03772DF8F03"
 			tasks: [
@@ -1976,7 +1999,7 @@
 		}
 		{
 			x: 12.5d
-			y: 36.0d
+			y: 35.5d
 			dependencies: ["2CE199BD6BCCAFEE"]
 			id: "51856B3E08240DAE"
 			tasks: [
@@ -2000,7 +2023,8 @@
 		}
 		{
 			x: 9.5d
-			y: 36.0d
+			y: 35.5d
+			description: ["自己动手，丰衣足食！"]
 			dependencies: ["2CE199BD6BCCAFEE"]
 			id: "17E01C3A91E95901"
 			tasks: [
@@ -2057,7 +2081,7 @@
 		}
 		{
 			x: 14.0d
-			y: 34.0d
+			y: 32.5d
 			description: ["让我们来点魔印"]
 			dependencies: ["62DFD668DD2E0C5C"]
 			id: "5AC513C864202F06"
@@ -2081,7 +2105,7 @@
 		}
 		{
 			x: 14.0d
-			y: 37.5d
+			y: 37.0d
 			dependencies: ["40308EBB1A2228A8"]
 			id: "40172E440D895FF4"
 			tasks: [
@@ -2099,7 +2123,7 @@
 		}
 		{
 			x: 14.0d
-			y: 36.0d
+			y: 35.5d
 			dependencies: ["51856B3E08240DAE"]
 			id: "40308EBB1A2228A8"
 			tasks: [{
@@ -2110,7 +2134,7 @@
 		}
 		{
 			x: 15.5d
-			y: 36.0d
+			y: 35.5d
 			description: ["神话时代"]
 			dependencies: ["40308EBB1A2228A8"]
 			id: "4FAEFD57BB345AE9"
@@ -2332,7 +2356,8 @@
 		}
 		{
 			x: 17.0d
-			y: 28.0d
+			y: 34.0d
+			description: ["带有神奇力量的骨灰（bushi）"]
 			dependencies: ["17C866516F627429"]
 			id: "387A587DE0A7E586"
 			tasks: [{
@@ -2341,9 +2366,15 @@
 				item: "tombstone:dust_of_vanishing"
 				count: 16L
 			}]
+			rewards: [{
+				id: "049EB7EEEFB6052E"
+				type: "item"
+				item: "minecraft:bone"
+				count: 8
+			}]
 		}
 		{
-			x: 17.0d
+			x: 20.0d
 			y: 31.0d
 			dependencies: ["387A587DE0A7E586"]
 			id: "49C80C6CD3A559B4"
@@ -2360,8 +2391,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 31.0d
+			x: 20.0d
+			y: 28.0d
 			dependencies: ["085D83CDB9EA6CE6"]
 			id: "053A5827A13C065E"
 			tasks: [{
@@ -2371,8 +2402,8 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 31.0d
+			x: 20.0d
+			y: 29.5d
 			dependencies: ["49C80C6CD3A559B4"]
 			id: "085D83CDB9EA6CE6"
 			tasks: [{
@@ -2382,8 +2413,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 29.5d
+			x: 18.5d
+			y: 31.0d
+			description: ["阴间魔法系列"]
 			dependencies: ["387A587DE0A7E586"]
 			id: "084D567E1F81D026"
 			tasks: [{
@@ -2393,8 +2425,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 29.5d
+			x: 18.5d
+			y: 28.0d
 			dependencies: ["3F51BD73AA6A1213"]
 			id: "56FA77265262B7DE"
 			tasks: [
@@ -2422,7 +2454,7 @@
 			]
 		}
 		{
-			x: 15.5d
+			x: 18.5d
 			y: 29.5d
 			dependencies: ["084D567E1F81D026"]
 			id: "3F51BD73AA6A1213"
@@ -2434,7 +2466,8 @@
 		}
 		{
 			x: 18.5d
-			y: 28.0d
+			y: 32.5d
+			description: ["人工合成坟墓"]
 			dependencies: ["387A587DE0A7E586"]
 			id: "4495E370950AB939"
 			tasks: [{
@@ -2450,8 +2483,8 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 26.5d
+			x: 21.5d
+			y: 32.5d
 			dependencies: ["5841E8AA635E7DD5"]
 			id: "5E112E2C31816D8C"
 			tasks: [
@@ -2474,7 +2507,7 @@
 		}
 		{
 			x: 20.0d
-			y: 28.0d
+			y: 32.5d
 			dependencies: ["4495E370950AB939"]
 			id: "5841E8AA635E7DD5"
 			tasks: [{
@@ -2485,7 +2518,7 @@
 		}
 		{
 			x: 18.5d
-			y: 29.5d
+			y: 34.0d
 			dependencies: ["387A587DE0A7E586"]
 			id: "7989ED59157BE85D"
 			tasks: [{
@@ -2502,7 +2535,7 @@
 		}
 		{
 			x: 20.0d
-			y: 29.5d
+			y: 34.0d
 			dependencies: ["7989ED59157BE85D"]
 			id: "02A7DBC862644B8F"
 			tasks: [{
@@ -2519,8 +2552,8 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 31.0d
+			x: 21.5d
+			y: 34.0d
 			dependencies: ["02A7DBC862644B8F"]
 			id: "131B8043CB19E542"
 			tasks: [{
@@ -2539,7 +2572,7 @@
 		}
 		{
 			x: 17.0d
-			y: 20.5d
+			y: 13.0d
 			dependencies: ["7236015D43E4BAD7"]
 			id: "50CBE6D87B832135"
 			tasks: [
@@ -2557,8 +2590,8 @@
 		}
 		{
 			x: 17.0d
-			y: 22.0d
-			dependencies: ["23AC452D3C4FADA3"]
+			y: 14.5d
+			dependencies: ["40CC6392D7D5CD82"]
 			id: "7236015D43E4BAD7"
 			tasks: [{
 				id: "05F92998A71785F0"
@@ -2568,7 +2601,7 @@
 		}
 		{
 			x: 18.5d
-			y: 22.0d
+			y: 14.5d
 			dependencies: ["7236015D43E4BAD7"]
 			id: "62AAD025BCF89D56"
 			tasks: [{
@@ -2579,7 +2612,7 @@
 		}
 		{
 			x: 17.0d
-			y: 19.0d
+			y: 11.5d
 			dependencies: ["50CBE6D87B832135"]
 			id: "1A2A1DF0DFA052ED"
 			tasks: [
@@ -2597,7 +2630,7 @@
 		}
 		{
 			x: 18.5d
-			y: 19.0d
+			y: 11.5d
 			dependencies: [
 				"265E56216EDE1A09"
 				"62AAD025BCF89D56"
@@ -2611,7 +2644,7 @@
 		}
 		{
 			x: 18.5d
-			y: 17.5d
+			y: 10.0d
 			dependencies: [
 				"4234AB4EA7924732"
 				"3A9B79A73410CAB8"
@@ -2638,7 +2671,7 @@
 		}
 		{
 			x: 15.5d
-			y: 19.0d
+			y: 11.5d
 			dependencies: ["1A2A1DF0DFA052ED"]
 			id: "265E56216EDE1A09"
 			tasks: [
@@ -2655,24 +2688,9 @@
 			]
 		}
 		{
-			x: 18.5d
-			y: 16.0d
-			description: [
-				"Controller requires power generation"
-				"控制器需要电能"
-			]
-			dependencies: ["60DAE5A4E2E9AC56"]
-			id: "0579BF67EF66524E"
-			tasks: [{
-				id: "6F88EA7C6DF92D74"
-				type: "item"
-				item: "engineersdecor:small_solar_panel"
-			}]
-		}
-		{
 			title: "Check the wiki and achievement progress by yourself"
 			x: 15.5d
-			y: 17.5d
+			y: 13.0d
 			description: ["自己动手丰衣足食（自行查阅Wiki和进度L)"]
 			dependencies: ["265E56216EDE1A09"]
 			id: "21012552A6534D4D"
@@ -2684,7 +2702,7 @@
 		}
 		{
 			x: 15.5d
-			y: 16.0d
+			y: 14.5d
 			dependencies: ["21012552A6534D4D"]
 			id: "152B29ABA9023EBB"
 			tasks: [
@@ -2753,7 +2771,7 @@
 		}
 		{
 			x: 32.5d
-			y: 27.5d
+			y: 26.5d
 			description: [
 				"有一天，你拜访了一个古怪的房子"
 				"格格不入的现代化闹钟"
@@ -2769,7 +2787,7 @@
 		}
 		{
 			x: 34.0d
-			y: 30.5d
+			y: 29.5d
 			description: ["正式踏入深渊"]
 			dependencies: ["535C5473701A2CB3"]
 			id: "37641989652B126A"
@@ -2781,7 +2799,7 @@
 		}
 		{
 			x: 34.0d
-			y: 27.5d
+			y: 26.5d
 			description: ["在梦境中，你找到了很多loran"]
 			dependencies: ["1FBCFD53AF50FC16"]
 			id: "535C5473701A2CB3"
@@ -2806,7 +2824,7 @@
 		}
 		{
 			x: 32.5d
-			y: 34.0d
+			y: 32.5d
 			description: ["是时候迎战了"]
 			dependencies: ["79EF74C59CA8FFF8"]
 			id: "1F48BF64B7023025"
@@ -2823,9 +2841,10 @@
 			}]
 		}
 		{
-			x: 35.5d
-			y: 34.0d
-			dependencies: ["79EF74C59CA8FFF8"]
+			x: 31.0d
+			y: 28.0d
+			description: ["看呐！庞大的古老生物"]
+			dependencies: ["2BFE455A0FE8E997"]
 			id: "461FE34900D99C55"
 			tasks: [{
 				id: "757773A08A0DD4F9"
@@ -2836,7 +2855,8 @@
 		}
 		{
 			x: 31.0d
-			y: 34.0d
+			y: 32.5d
+			description: ["来自深渊的剑"]
 			dependencies: ["1F48BF64B7023025"]
 			id: "55C7D84A07F77B82"
 			tasks: [{
@@ -2853,7 +2873,7 @@
 		}
 		{
 			x: 34.0d
-			y: 34.0d
+			y: 32.5d
 			description: ["希望你做了充足的准备"]
 			dependencies: [
 				"4059907A3E880C33"
@@ -2880,8 +2900,8 @@
 			}]
 		}
 		{
-			x: 37.0d
-			y: 34.0d
+			x: 32.5d
+			y: 28.0d
 			dependencies: ["461FE34900D99C55"]
 			id: "562E633DDF28C503"
 			tasks: [{
@@ -2897,8 +2917,8 @@
 			}]
 		}
 		{
-			x: 35.5d
-			y: 35.5d
+			x: 31.0d
+			y: 29.5d
 			dependencies: ["461FE34900D99C55"]
 			id: "72182F55DCFAF471"
 			tasks: [{
@@ -2909,7 +2929,7 @@
 		}
 		{
 			x: 34.0d
-			y: 29.0d
+			y: 28.0d
 			dependencies: ["37641989652B126A"]
 			id: "16FC6A22C3CFCCE4"
 			tasks: [{
@@ -2932,7 +2952,7 @@
 		}
 		{
 			x: 35.5d
-			y: 30.5d
+			y: 29.5d
 			dependencies: ["37641989652B126A"]
 			id: "3577073D6AE0FE9F"
 			tasks: [{
@@ -2943,7 +2963,7 @@
 		}
 		{
 			x: 37.0d
-			y: 30.5d
+			y: 29.5d
 			dependencies: ["3577073D6AE0FE9F"]
 			id: "7B1308ECC5387F97"
 			tasks: [
@@ -2961,7 +2981,7 @@
 		}
 		{
 			x: 34.0d
-			y: 32.0d
+			y: 31.0d
 			dependencies: ["37641989652B126A"]
 			id: "4059907A3E880C33"
 			tasks: [{
@@ -2973,7 +2993,7 @@
 		}
 		{
 			x: 32.5d
-			y: 32.0d
+			y: 31.0d
 			dependencies: ["6462F6866D8AB17C"]
 			id: "597537646D7214D5"
 			tasks: [{
@@ -2985,7 +3005,7 @@
 		}
 		{
 			x: 35.5d
-			y: 32.0d
+			y: 31.0d
 			dependencies: ["37641989652B126A"]
 			id: "4D2DDDF3EF27BBF8"
 			tasks: [{
@@ -2997,7 +3017,7 @@
 		}
 		{
 			x: 38.5d
-			y: 30.5d
+			y: 29.5d
 			dependencies: ["7B1308ECC5387F97"]
 			id: "03B1D5D48940C149"
 			tasks: [{
@@ -3008,7 +3028,7 @@
 		}
 		{
 			x: 40.0d
-			y: 29.0d
+			y: 28.0d
 			dependencies: ["03B1D5D48940C149"]
 			id: "3732EF7951869F4C"
 			tasks: [{
@@ -3019,7 +3039,7 @@
 		}
 		{
 			x: 37.0d
-			y: 32.0d
+			y: 31.0d
 			dependencies: ["03B1D5D48940C149"]
 			id: "1FB0D8709F5B9B8D"
 			tasks: [{
@@ -3030,7 +3050,7 @@
 		}
 		{
 			x: 40.0d
-			y: 30.5d
+			y: 29.5d
 			dependencies: ["03B1D5D48940C149"]
 			id: "5ADB23492AB943EB"
 			tasks: [{
@@ -3041,7 +3061,7 @@
 		}
 		{
 			x: 40.0d
-			y: 32.0d
+			y: 31.0d
 			dependencies: ["03B1D5D48940C149"]
 			id: "6B5D8EC873514724"
 			tasks: [{
@@ -3052,7 +3072,7 @@
 		}
 		{
 			x: 38.5d
-			y: 32.0d
+			y: 31.0d
 			dependencies: ["03B1D5D48940C149"]
 			id: "7A0278FDBA395509"
 			tasks: [{
@@ -3063,7 +3083,7 @@
 		}
 		{
 			x: 32.5d
-			y: 30.5d
+			y: 29.5d
 			dependencies: ["37641989652B126A"]
 			id: "6462F6866D8AB17C"
 			tasks: [{
@@ -3074,7 +3094,7 @@
 		}
 		{
 			x: 35.5d
-			y: 29.0d
+			y: 28.0d
 			dependencies: ["16FC6A22C3CFCCE4"]
 			id: "441C6374AACE8719"
 			tasks: [{
@@ -3085,7 +3105,7 @@
 		}
 		{
 			x: 35.5d
-			y: 27.5d
+			y: 26.5d
 			dependencies: ["441C6374AACE8719"]
 			id: "46D3C8487CE30382"
 			tasks: [
@@ -3105,7 +3125,7 @@
 		}
 		{
 			x: 37.0d
-			y: 26.0d
+			y: 25.0d
 			dependencies: ["46D3C8487CE30382"]
 			id: "7BD701D4EF78BAD5"
 			tasks: [{
@@ -3116,7 +3136,7 @@
 		}
 		{
 			x: 38.5d
-			y: 26.0d
+			y: 25.0d
 			dependencies: ["7BD701D4EF78BAD5"]
 			id: "19FDE15228AD075F"
 			tasks: [{
@@ -3127,7 +3147,7 @@
 		}
 		{
 			x: 37.0d
-			y: 24.5d
+			y: 23.5d
 			dependencies: ["7BD701D4EF78BAD5"]
 			id: "100C7A309F00725D"
 			tasks: [{
@@ -3144,7 +3164,7 @@
 		}
 		{
 			x: 38.5d
-			y: 24.5d
+			y: 23.5d
 			dependencies: ["19FDE15228AD075F"]
 			id: "3BA877C196C5995C"
 			tasks: [{
@@ -3161,7 +3181,7 @@
 		}
 		{
 			x: 37.0d
-			y: 27.5d
+			y: 26.5d
 			dependencies: ["46D3C8487CE30382"]
 			id: "0846ED62996F2C9B"
 			tasks: [{
@@ -3178,7 +3198,7 @@
 		}
 		{
 			x: 37.0d
-			y: 29.0d
+			y: 28.0d
 			dependencies: ["441C6374AACE8719"]
 			id: "1A3D4C960B4CF8C5"
 			tasks: [{
@@ -3195,7 +3215,7 @@
 		}
 		{
 			x: 38.5d
-			y: 29.0d
+			y: 28.0d
 			dependencies: ["1A3D4C960B4CF8C5"]
 			id: "03DA150F8F6A747D"
 			tasks: [{
@@ -3212,7 +3232,7 @@
 		}
 		{
 			x: 35.5d
-			y: 26.0d
+			y: 25.0d
 			dependencies: ["46D3C8487CE30382"]
 			id: "2B2AC4D8AF306DED"
 			tasks: [{
@@ -3229,7 +3249,7 @@
 		}
 		{
 			x: 15.5d
-			y: 37.5d
+			y: 37.0d
 			dependencies: ["4FAEFD57BB345AE9"]
 			id: "43077E0E4FCD84A2"
 			tasks: [
@@ -3259,7 +3279,7 @@
 		}
 		{
 			x: 6.5d
-			y: 34.5d
+			y: 34.0d
 			description: ["书是人类进步的阶梯"]
 			dependencies: ["7C59CABA429B9DD8"]
 			id: "7356A728A0B16AB3"
@@ -3271,7 +3291,7 @@
 		}
 		{
 			x: 8.0d
-			y: 34.5d
+			y: 34.0d
 			description: ["力量！力量！力量！"]
 			dependencies: ["7356A728A0B16AB3"]
 			id: "63F0DA4EF2FB0EF6"
@@ -3283,7 +3303,8 @@
 		}
 		{
 			x: 8.0d
-			y: 36.0d
+			y: 35.5d
+			description: ["进一步！"]
 			dependencies: ["63F0DA4EF2FB0EF6"]
 			id: "385B38837CD2DCF9"
 			tasks: [{
@@ -3294,7 +3315,8 @@
 		}
 		{
 			x: 8.0d
-			y: 37.5d
+			y: 37.0d
+			description: ["更进一步！"]
 			dependencies: ["385B38837CD2DCF9"]
 			id: "64549C2238CB733A"
 			tasks: [{
@@ -3333,6 +3355,7 @@
 		{
 			x: 25.5d
 			y: 23.5d
+			description: ["生异形吗？"]
 			dependencies: ["60B01C91C196F2C9"]
 			id: "718794DC834F6798"
 			tasks: [{
@@ -3361,7 +3384,7 @@
 		}
 		{
 			x: 9.5d
-			y: 34.5d
+			y: 34.0d
 			description: ["宝石凝聚器"]
 			dependencies: ["63F0DA4EF2FB0EF6"]
 			id: "6663D4F8670222A2"
@@ -3373,7 +3396,7 @@
 		}
 		{
 			x: 9.5d
-			y: 31.5d
+			y: 31.0d
 			description: [
 				"不建议早期投入大量精力"
 				"早期获取魔源宝石机器"
@@ -3420,7 +3443,7 @@
 		}
 		{
 			x: 27.5d
-			y: 37.5d
+			y: 37.0d
 			dependencies: [
 				"3A877B4B726760FE"
 				"6C3C93034FD31F1C"
@@ -3434,7 +3457,7 @@
 		}
 		{
 			x: 25.5d
-			y: 37.5d
+			y: 37.0d
 			dependencies: ["5C2930B346B6AB4A"]
 			id: "39F8249A0BAED791"
 			tasks: [
@@ -3507,7 +3530,7 @@
 		}
 		{
 			x: 27.5d
-			y: 27.5d
+			y: 26.5d
 			dependencies: ["59AD853700645A80"]
 			id: "6C3C93034FD31F1C"
 			tasks: [{
@@ -3519,7 +3542,7 @@
 		}
 		{
 			x: 17.0d
-			y: 36.0d
+			y: 35.5d
 			dependencies: ["40308EBB1A2228A8"]
 			id: "131B57277A08D1D4"
 			tasks: [
@@ -3537,67 +3560,52 @@
 		}
 		{
 			x: 15.5d
-			y: 34.0d
-			dependencies: ["5AC513C864202F06"]
-			id: "4750E0E1E76FFBAB"
-			tasks: [{
-				id: "253430BD7475ED57"
-				type: "item"
-				item: {
-					id: "ars_nouveau:spell_bow"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 15.5d
 			y: 32.5d
-			dependencies: ["5AC513C864202F06"]
-			id: "1B85255BEF9BCB13"
-			tasks: [{
-				id: "30AA06545634A624"
-				type: "item"
-				item: {
-					id: "ars_nouveau:enchanters_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 14.0d
-			y: 32.5d
+			description: ["法师四件套"]
 			dependencies: ["5AC513C864202F06"]
 			id: "1FF64FBF8DCADF8B"
-			tasks: [{
-				id: "5F270FE6BC574401"
-				type: "item"
-				item: "ars_nouveau:enchanters_mirror"
-			}]
-		}
-		{
-			x: 12.5d
-			y: 31.5d
-			dependencies: ["641F1EE9A845D91A"]
-			id: "7C56337924B2E066"
-			tasks: [{
-				id: "5C4FAC5798133725"
-				type: "item"
-				item: {
-					id: "ars_nouveau:enchanters_shield"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5F270FE6BC574401"
+					type: "item"
+					item: "ars_nouveau:enchanters_mirror"
+				}
+				{
+					id: "2235EC777E25A0AF"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "0155FA673BE516A3"
+					type: "item"
+					item: {
+						id: "ars_nouveau:spell_bow"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "61DDE46024FF5E56"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 17.0d
-			y: 17.5d
+			y: 10.0d
 			dependencies: ["1A2A1DF0DFA052ED"]
 			id: "3A9B79A73410CAB8"
 			tasks: [
@@ -3620,7 +3628,7 @@
 		}
 		{
 			x: 24.0d
-			y: 39.0d
+			y: 38.5d
 			dependencies: ["0779B5E73E0DACE6"]
 			id: "784BCCE2DB2F1E6A"
 			tasks: [{
@@ -3631,7 +3639,7 @@
 		}
 		{
 			x: 9.5d
-			y: 37.5d
+			y: 37.0d
 			dependencies: ["3A877B4B726760FE"]
 			id: "75635722732DC807"
 			tasks: [{
@@ -3642,7 +3650,7 @@
 		}
 		{
 			x: 14.0d
-			y: 39.0d
+			y: 38.5d
 			dependencies: ["40172E440D895FF4"]
 			id: "4643023CC7E1418E"
 			tasks: [{
@@ -3653,7 +3661,7 @@
 		}
 		{
 			x: 14.0d
-			y: 40.5d
+			y: 40.0d
 			dependencies: ["4643023CC7E1418E"]
 			id: "564ED3D7E55B2C6D"
 			tasks: [{
@@ -3664,7 +3672,7 @@
 		}
 		{
 			x: 9.5d
-			y: 39.0d
+			y: 38.5d
 			dependencies: ["75635722732DC807"]
 			id: "5DF761836FCD7F5A"
 			tasks: [
@@ -3682,7 +3690,7 @@
 		}
 		{
 			x: 24.0d
-			y: 37.5d
+			y: 37.0d
 			dependencies: ["39F8249A0BAED791"]
 			id: "0779B5E73E0DACE6"
 			tasks: [{
@@ -3693,7 +3701,7 @@
 		}
 		{
 			x: 25.5d
-			y: 39.0d
+			y: 38.5d
 			dependencies: ["784BCCE2DB2F1E6A"]
 			id: "1C51529FB12C9D24"
 			tasks: [{
@@ -3704,7 +3712,7 @@
 		}
 		{
 			x: 22.5d
-			y: 39.0d
+			y: 38.5d
 			dependencies: ["784BCCE2DB2F1E6A"]
 			id: "774B9C09A4780F1F"
 			tasks: [{
@@ -3715,7 +3723,7 @@
 		}
 		{
 			x: 22.5d
-			y: 40.5d
+			y: 40.0d
 			dependencies: ["784BCCE2DB2F1E6A"]
 			id: "134569FC9B8FFC5D"
 			tasks: [{
@@ -3726,7 +3734,7 @@
 		}
 		{
 			x: 24.0d
-			y: 40.5d
+			y: 40.0d
 			dependencies: ["784BCCE2DB2F1E6A"]
 			id: "105665B35940B251"
 			tasks: [{
@@ -3737,7 +3745,7 @@
 		}
 		{
 			x: 25.5d
-			y: 40.5d
+			y: 40.0d
 			dependencies: ["784BCCE2DB2F1E6A"]
 			id: "49F73C54CBAE6D3F"
 			tasks: [{
@@ -3749,6 +3757,7 @@
 		{
 			x: 21.5d
 			y: 23.5d
+			description: ["魔力 and Power！"]
 			dependencies: ["0BA003C441001DA8"]
 			id: "18A00A3D48F810FE"
 			tasks: [
@@ -3938,9 +3947,9 @@
 			]
 			id: "42D2EF0939321517"
 			tasks: [{
-				id: "72AD6D64FE1E7B05"
+				id: "15168F00C25ABA2F"
 				type: "item"
-				item: "rankine:native_tin_ore"
+				item: "rankine:tin_ingot"
 			}]
 		}
 		{
@@ -4108,8 +4117,8 @@
 			description: [
 				"核心金属"
 				"别问我为啥送这么多辉锑矿"
-				"问就是模组bug原因"
-				"qwq"
+				""
+				" 问就是福利"
 			]
 			dependencies: ["5AF38E47544F0177"]
 			id: "259DB4943B8E57F9"
@@ -4117,12 +4126,13 @@
 				id: "747AEDCCD10F7ABD"
 				type: "item"
 				item: "rankine:tin_ingot"
+				count: 16L
 			}]
 			rewards: [{
 				id: "4FBFBD1840EC80A7"
 				type: "item"
 				item: "rankine:stibnite"
-				count: 64
+				count: 16
 			}]
 		}
 		{
@@ -4162,6 +4172,7 @@
 		{
 			x: 8.0d
 			y: 23.5d
+			description: ["开挖！"]
 			dependencies: ["083A4BC8FF05D810"]
 			id: "711954C5CFCF2972"
 			tasks: [{
@@ -4185,6 +4196,7 @@
 		{
 			x: 8.0d
 			y: 22.0d
+			description: ["（找不到耐火粘土？去做阶段一魔法路线）"]
 			dependencies: ["711954C5CFCF2972"]
 			id: "0B3B79760D8D9035"
 			tasks: [
@@ -4222,7 +4234,11 @@
 		{
 			x: 3.5d
 			y: 28.0d
-			description: ["恭喜你进入了阶段1"]
+			description: [
+				"恭喜你进入了阶段1"
+				"每吃4种食物可以获得1颗心"
+				"（快去发展农业）"
+			]
 			dependencies: ["76E3D030DF609C86"]
 			id: "51AE3AC374254178"
 			tasks: [{
@@ -4273,6 +4289,7 @@
 		{
 			x: 0.5d
 			y: 28.0d
+			description: [" 让你在水里游得超快哦"]
 			dependencies: ["51AE3AC374254178"]
 			id: "4666EE8BBBA04A3D"
 			tasks: [{
@@ -4340,7 +4357,7 @@
 		}
 		{
 			x: 3.5d
-			y: 31.5d
+			y: 31.0d
 			description: ["耕种时间到"]
 			dependencies: ["51AE3AC374254178"]
 			id: "6A84B059DAD8E82F"
@@ -4465,16 +4482,13 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 11.0d
 			y: 22.0d
 			description: [
 				"中期重要生产力机器，坩埚！"
-				"（找不到耐火粘土？去做阶段一魔法路线）"
+				""
 			]
-			dependencies: [
-				"0B3B79760D8D9035"
-				"6CFA8D011B384CCA"
-			]
+			dependencies: ["7CDF685E6DAE1F92"]
 			id: "01AAE70DD50DF8D4"
 			tasks: [{
 				id: "2FCBE57765CED801"
@@ -4509,7 +4523,7 @@
 		{
 			x: 12.5d
 			y: 23.5d
-			description: ["大炼钢！"]
+			description: ["大锅合金！"]
 			dependencies: ["6EC89AAA128E57AB"]
 			id: "6B2706AB3A82AFCC"
 			tasks: [{
@@ -4550,7 +4564,7 @@
 		}
 		{
 			x: 11.0d
-			y: 22.0d
+			y: 20.5d
 			description: ["进入阶段2"]
 			dependencies: ["01AAE70DD50DF8D4"]
 			id: "37A3F4B935C812C1"
@@ -4666,6 +4680,7 @@
 		{
 			x: 17.0d
 			y: 26.5d
+			description: ["阶段3！ 游戏正式开始"]
 			dependencies: ["4EA8CF9FE1615A76"]
 			id: "17C866516F627429"
 			tasks: [{
@@ -4718,8 +4733,8 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: 20.5d
+			x: 12.5d
+			y: 22.0d
 			description: ["中期重要生产力机器---气体仓"]
 			dependencies: ["015F34A211D50106"]
 			id: "4FE929296E94501F"
@@ -5016,7 +5031,8 @@
 		}
 		{
 			x: 31.0d
-			y: 27.5d
+			y: 26.5d
+			description: ["恭喜你到达了所有阶段！"]
 			dependencies: ["6C3C93034FD31F1C"]
 			id: "2BFE455A0FE8E997"
 			tasks: [{
@@ -5078,6 +5094,7 @@
 		{
 			x: 8.0d
 			y: 19.0d
+			description: ["桥梁可比用方块直线搭桥好看多了"]
 			dependencies: [
 				"536EC14BAB944892"
 				"33A966373356C75B"
@@ -5121,6 +5138,505 @@
 				id: "0B4E94974A3FE729"
 				type: "random"
 				table_id: 1291177147218470362L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 22.0d
+			description: ["铁碳合金"]
+			dependencies: [
+				"6CFA8D011B384CCA"
+				"0B3B79760D8D9035"
+			]
+			id: "7CDF685E6DAE1F92"
+			tasks: [
+				{
+					id: "682FA329F2678F57"
+					type: "item"
+					item: "rankine:hematite"
+					count: 8L
+				}
+				{
+					id: "7E9CA239F70E38BE"
+					type: "item"
+					item: "rankine:subbituminous_coal"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "2DDA60478CC3500E"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 12
+			}]
+		}
+		{
+			x: 17.0d
+			y: 22.0d
+			description: ["安山工艺"]
+			dependencies: ["23AC452D3C4FADA3"]
+			id: "11E43FF0EF0AC600"
+			tasks: [{
+				id: "6B075C73C1131E0F"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "522D4B840A0EA267"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 22.0d
+			description: ["第一步：产生应力"]
+			dependencies: ["11E43FF0EF0AC600"]
+			id: "568E0CED7BCA1EA0"
+			tasks: [{
+				id: "2E140D35B4A1F938"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 22.0d
+			description: ["第一步：产生应力"]
+			dependencies: ["11E43FF0EF0AC600"]
+			id: "1F237429F51148EA"
+			tasks: [
+				{
+					id: "7362F992C88AA252"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "16463634DDD21D1C"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: 20.5d
+			description: ["第二步：传递应力"]
+			dependencies: [
+				"568E0CED7BCA1EA0"
+				"1F237429F51148EA"
+			]
+			id: "6BDC5AB7610CFDE3"
+			tasks: [
+				{
+					id: "380D29D63064F64C"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "3E46D46289475598"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "3E1D08BB73F86ED1"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "2E37C1CE696B9353"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "684B72AE9166B42F"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 20.5d
+			description: ["第三步：发展生产力"]
+			dependencies: ["6BDC5AB7610CFDE3"]
+			id: "391055F9C8A76BC6"
+			tasks: [
+				{
+					id: "65FF84EEC4C6470F"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "2A3DBC5D88244872"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: 19.0d
+			description: ["第三步：发展生产力"]
+			dependencies: ["6BDC5AB7610CFDE3"]
+			id: "6BB58E0E070DA39D"
+			tasks: [
+				{
+					id: "4D25A4C1BBD012D4"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "2143DAE7B3A540AD"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "4C0F2A105C777B57"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 20.5d
+			dependencies: ["391055F9C8A76BC6"]
+			id: "37CA9E4553870E98"
+			tasks: [{
+				id: "25642FDF74ABDEBD"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 19.0d
+			dependencies: ["37CA9E4553870E98"]
+			id: "72E053E59941863C"
+			tasks: [{
+				id: "489D39E21C1F6D3F"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 17.5d
+			dependencies: ["72E053E59941863C"]
+			id: "79B99ADC0EBF26FB"
+			tasks: [{
+				id: "6ED0C5893D90C79E"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 17.5d
+			dependencies: ["6BDC5AB7610CFDE3"]
+			id: "673BFCDF97F99571"
+			tasks: [{
+				id: "0580EA1121B24C76"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 17.5d
+			dependencies: ["72E053E59941863C"]
+			id: "2A01A5647F5C04D7"
+			tasks: [{
+				id: "62316B3FC45AF2AF"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 16.0d
+			dependencies: ["2A01A5647F5C04D7"]
+			id: "40CC6392D7D5CD82"
+			tasks: [
+				{
+					id: "4C982CC6AF8A7EF8"
+					type: "item"
+					item: "create:crushing_wheel"
+				}
+				{
+					id: "3EDE80E9729A69B3"
+					type: "item"
+					item: "create:flywheel"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 16.0d
+			dependencies: ["2A01A5647F5C04D7"]
+			id: "3EB52AB4AC71E0C9"
+			tasks: [{
+				id: "3955200F128BBD72"
+				type: "item"
+				item: "create:refined_radiance_casing"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 20.5d
+			description: ["第三步：发展生产力"]
+			dependencies: ["6BDC5AB7610CFDE3"]
+			id: "6FD6F0263F72ADEE"
+			tasks: [
+				{
+					id: "0B864DAC7824F55D"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "3B456258BB5FBD3D"
+					type: "item"
+					item: "create:andesite_encased_shaft"
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: 19.0d
+			description: ["第三步：发展生产力"]
+			dependencies: ["6BDC5AB7610CFDE3"]
+			id: "040B9BA2F91D4440"
+			tasks: [
+				{
+					id: "4DAF68783D43ACBA"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "22F13874B79E7AC4"
+					type: "item"
+					item: "create:deployer"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 19.0d
+			dependencies: ["040B9BA2F91D4440"]
+			id: "114E70FEBC1A65B3"
+			tasks: [{
+				id: "687A6975F3F61EF9"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 19.0d
+			dependencies: ["6FD6F0263F72ADEE"]
+			id: "5F8DDF36BC2FE105"
+			tasks: [
+				{
+					id: "6F2C7D91F25D48D4"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "328951D5187963DF"
+					type: "item"
+					item: "create:andesite_tunnel"
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: 16.0d
+			dependencies: ["673BFCDF97F99571"]
+			id: "628F2A76B48595A0"
+			tasks: [{
+				id: "797D4C832113A9E6"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 16.0d
+			dependencies: ["628F2A76B48595A0"]
+			id: "6985DEA036E4C4CC"
+			tasks: [
+				{
+					id: "2A8343E7BFB8A639"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+				{
+					id: "74518D5F29866978"
+					type: "item"
+					item: "create:mechanical_plough"
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: 17.5d
+			dependencies: [
+				"6BB58E0E070DA39D"
+				"040B9BA2F91D4440"
+			]
+			id: "0EE3DE4579F4F2DE"
+			tasks: [
+				{
+					id: "5B3BE815ACB21746"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "1FA4BCD9AD6D656D"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "70F5C8CFFC3C2277"
+					type: "item"
+					item: "create:fluid_tank"
+				}
+				{
+					id: "72041FA0966EF4E8"
+					type: "item"
+					item: "create:portable_fluid_interface"
+				}
+				{
+					id: "592ED7A36F4D8273"
+					type: "item"
+					item: "create:item_drain"
+				}
+				{
+					id: "2B8DE7249C46FAF2"
+					type: "item"
+					item: "create:hose_pulley"
+				}
+				{
+					id: "10FF6F113F8AF18D"
+					type: "item"
+					item: "create:spout"
+				}
+			]
+		}
+		{
+			x: 20.0d
+			y: 17.5d
+			dependencies: ["0EE3DE4579F4F2DE"]
+			id: "05FFA9B6C5CC8837"
+			tasks: [{
+				id: "428F7BA80235C5CA"
+				type: "item"
+				item: "create:chocolate_bucket"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 23.5d
+			description: ["保证你的地面是平整的！"]
+			dependencies: ["78286BD2E80FA40B"]
+			id: "3320D903A1BD59A7"
+			tasks: [{
+				id: "54DC084D0348005F"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 23.5d
+			description: ["如果目前生产力发展比较好了，建议直接盖2个以上"]
+			dependencies: ["3320D903A1BD59A7"]
+			id: "3703A4FFE6246EA1"
+			tasks: [{
+				id: "5371570A5DED43D6"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 25.0d
+			dependencies: ["2BFE455A0FE8E997"]
+			id: "78286BD2E80FA40B"
+			tasks: [{
+				id: "43D75C0F96BE6BD2"
+				type: "item"
+				item: "structurize:sceptergold"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 22.0d
+			dependencies: ["3320D903A1BD59A7"]
+			id: "78E6D37ADFAA6B61"
+			tasks: [{
+				id: "72504379246EA642"
+				type: "item"
+				item: "minecolonies:blockhutwarehouse"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 19.5d
+			dependencies: ["05092F470B4A49F9"]
+			id: "0D404E9052362FCF"
+			tasks: [{
+				id: "0489676AD157B2F0"
+				type: "checkmark"
+				title: "这里是一些按键说明"
+			}]
+			rewards: [{
+				id: "60885042C7EFF372"
+				type: "item"
+				item: "minecraft:torch"
+				count: 12
+			}]
+		}
+		{
+			x: -10.0d
+			y: 17.5d
+			description: ["按O键"]
+			dependencies: ["0D404E9052362FCF"]
+			id: "3B6A122468422DF6"
+			tasks: [{
+				id: "5674625B51EEE1E7"
+				type: "checkmark"
+				title: "背包UI"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 25.0d
+			description: ["更多更多！"]
+			dependencies: ["210E798B0CF438C0"]
+			id: "2FA6820B33F7A1E6"
+			tasks: [{
+				id: "1764941E2BAED68B"
+				type: "item"
+				item: {
+					id: "touhou_little_maid:entity_placeholder"
+					Count: 1b
+					tag: {
+						RecipeId: "touhou_little_maid:altar/spawn_box"
+					}
+				}
+			}]
+		}
+		{
+			x: 30.5d
+			y: 20.5d
+			dependencies: ["6D269B00D76B2FE1"]
+			id: "524B49DB068C84DF"
+			tasks: [{
+				id: "72F82789CDF06FB9"
+				type: "item"
+				item: "prehistoricfauna:paleontology_table"
 			}]
 		}
 	]
